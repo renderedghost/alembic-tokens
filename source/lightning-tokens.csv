@@ -1,0 +1,481 @@
+token name	description	value	version	themable
+$brand-accessible	Dark variant of BRAND that is accessible with white	rgb(1, 118, 211)#0176d3BRAND_ACCESSIBLE	2.6.0	Yes
+$brand-accessible-active	Active / Hover state of BRAND_A11Y	rgb(1, 68, 134)#014486BRAND_ACCESSIBLE_ACTIVE	2.6.0	Yes
+$brand-background-dark	Dark variant of BRAND_BACKGROUND_PRIMARY, used within gradient of background color	rgb(1, 68, 134)#014486BRAND_BACKGROUND_DARK	2.6.0	Yes
+$brand-background-dark-transparent	These RGBA values need to be updated if BRAND_BACKGROUND_DARK changes, solves webkit bug	rgba(1, 68, 134, 0)rgba(1,68,134,0)	2.6.0	Yes
+$brand-background-primary	Primary page background color	rgb(238, 244, 255)#eef4ffBRAND_BACKGROUND_PRIMARY	2.6.0	Yes
+$brand-background-primary-transparent	These RGBA values need to be updated if BRAND_BACKGROUND_PRIMARY changes, solves webkit bug	rgba(176, 196, 223, 0)rgba(176,196,223,0)	2.6.0	Yes
+$brand-contrast	Variant of BRAND that is accessible with BRAND	rgb(26, 27, 30)#1a1b1eBRAND_CONTRAST	2.6.0	Yes
+$brand-contrast-active	Active / Hover state of BRAND_CONTRAST	rgb(13, 14, 18)#0d0e12BRAND_CONTRAST_ACTIVE	2.6.0	Yes
+$brand-dark	Dark variant of BRAND that is accessible with light colors	rgb(1, 118, 211)#0176d3BRAND_DARK	2.6.0	Yes
+$brand-dark-active	Active / Hover state of BRAND_DARK	rgb(37, 48, 69)#253045BRAND_DARK_ACTIVE	2.6.0	Yes
+$brand-disabled	Disabled state of BRAND_A11Y	rgb(201, 199, 197)#c9c7c5BRAND_DISABLED	2.6.0	Yes
+$brand-header	Background color a branded app header	rgb(255, 255, 255)#ffffffPALETTE_GRAY_1	2.6.0	Yes
+$brand-header-contrast	Variant of BRAND_HEADER that is accessible with BRAND_HEADER	rgb(94, 94, 94)#5e5e5e	2.6.0	Yes
+$brand-header-contrast-active	Active / Hover state of BRAND_HEADER_CONTRAST	rgb(80, 80, 80)#505050	2.6.0	Yes
+$brand-header-contrast-cool	Variant of BRAND_HEADER_CONTRAST that provides a cool color	rgb(1, 68, 134)#014486PALETTE_BLUE_30	2.6.0	Yes
+$brand-header-contrast-cool-active	Active / Hover state of BRAND_HEADER_CONTRAST_COOL	rgb(1, 68, 134)#014486PALETTE_BLUE_30	2.6.0	Yes
+$brand-header-contrast-inverse	Variant of BRAND_HEADER that is accessible with BRAND_HEADER	rgb(255, 255, 255)#ffffff	2.6.0	Yes
+$brand-header-contrast-inverse-active	Active / Hover state of BRAND_HEADER_CONTRAST	rgb(238, 238, 238)#eeeeee	2.6.0	Yes
+$brand-header-contrast-warm	Variant of BRAND_HEADER_CONTRAST that provides a warm color	rgb(186, 5, 23)#ba0517PALETTE_RED_40	2.6.0	Yes
+$brand-header-contrast-warm-active	Active / Hover state of BRAND_HEADER_CONTRAST_WARM	rgb(186, 5, 23)#ba0517PALETTE_RED_40	2.6.0	Yes
+$brand-header-contrast-weak	Weak contrast ratio, useful for iconography	rgb(145, 145, 145)#919191	2.6.0	Yes
+$brand-header-contrast-weak-active	Active / Hover state of BRAND_HEADER_CONTRAST_WEAK	rgb(129, 129, 129)#818181	2.6.0	Yes
+$brand-header-contrast-weak-disabled	Disabled state of BRAND_HEADER_CONTRAST_WEAK	rgba(166, 166, 166, 0.25)rgba(166,166,166,0.25)	2.6.0	Yes
+$brand-header-icon	Icons of BRAND_HEADER that is accessible with BRAND_HEADER	rgb(145, 145, 145)#919191	2.6.0	Yes
+$brand-header-icon-active	Active / Hover state of BRAND_HEADER_ICON	rgb(129, 129, 129)#818181	2.6.0	Yes
+$brand-header-icon-disabled	Disabled state of BRAND_HEADER_ICON	rgba(145, 145, 145, 0.25)rgba(145,145,145,0.25)	2.6.0	Yes
+$brand-light	Light variant of BRAND that is accessible with dark colors	rgb(244, 246, 254)#f4f6feBRAND_LIGHT	2.6.0	Yes
+$brand-light-active	Active / Hover state of BRAND_LIGHT	rgb(227, 229, 237)#e3e5edBRAND_LIGHT_ACTIVE	2.6.0	Yes
+$brand-primary	Primary brand color	rgb(27, 150, 255)#1b96ffBRAND_PRIMARY	2.6.0	Yes
+$brand-primary-active	Active / Hover state of BRAND_PRIMARY	rgb(1, 118, 211)#0176d3BRAND_PRIMARY_ACTIVE	2.6.0	Yes
+$brand-primary-transparent	Transparent value of BRAND_PRIMARY	rgba(21, 137, 238, 0.1)rgba(21,137,238,0.1)	2.6.0	Yes
+$brand-primary-transparent-10	Transparent value of BRAND_PRIMARY at 10%	rgba(21, 137, 238, 0.1)rgba(21,137,238,0.1)	2.6.0	Yes
+$brand-primary-transparent-40	Transparent value of BRAND_PRIMARY at 40%	rgba(21, 137, 238, 0.4)rgba(21,137,238,0.4)	2.6.0	Yes
+$brand-text-link	Primary text link brand color	rgb(1, 118, 211)#0176d3BRAND_TEXT_LINK	2.6.0	Yes
+$brand-text-link-active	Active / Hover state of BRAND_TEXT_LINK	rgb(1, 68, 134)#014486BRAND_TEXT_LINK_ACTIVE	2.6.0	Yes
+$color-gray-1	Gray Color 1	rgb(255, 255, 255)#ffffffPALETTE_GRAY_1	2.5.0	No
+$color-gray-2	Gray Color 2	rgb(250, 250, 249)#fafaf9PALETTE_GRAY_2	2.5.0	No
+$color-gray-3	Gray Color 3	rgb(243, 242, 242)#f3f2f2PALETTE_GRAY_3	2.5.0	No
+$color-gray-4	Gray Color 4	rgb(236, 235, 234)#ecebeaPALETTE_GRAY_4	2.5.0	No
+$color-gray-5	Gray Color 5	rgb(221, 219, 218)#dddbdaPALETTE_GRAY_5	2.5.0	No
+$color-gray-6	Gray Color 6	rgb(201, 199, 197)#c9c7c5PALETTE_GRAY_6	2.5.0	No
+$color-gray-7	Gray Color 7	rgb(176, 173, 171)#b0adabPALETTE_GRAY_7	2.5.0	No
+$color-gray-8	Gray Color 8	rgb(150, 148, 146)#969492PALETTE_GRAY_8	2.5.0	No
+$color-gray-9	Gray Color 9	rgb(112, 110, 107)#706e6bPALETTE_GRAY_9	2.5.0	No
+$color-gray-10	Gray Color 10	rgb(81, 79, 77)#514f4dPALETTE_GRAY_10	2.5.0	No
+$color-gray-11	Gray Color 11	rgb(62, 62, 60)#3e3e3cPALETTE_GRAY_11	2.5.0	No
+$color-gray-12	Gray Color 12	rgb(43, 40, 38)#2b2826PALETTE_GRAY_12	2.5.0	No
+$color-gray-13	Gray Color 13	rgb(8, 7, 7)#080707PALETTE_GRAY_13	2.5.0	No
+$palette-blue-10	Blue 10	rgb(0, 22, 57)#001639PALETTE_BLUE_10	2.14.0	No
+$palette-blue-15	Blue 15	rgb(3, 35, 77)#03234dPALETTE_BLUE_15	2.14.0	No
+$palette-blue-20	Blue 20	rgb(3, 45, 96)#032d60PALETTE_BLUE_20	2.14.0	No
+$palette-blue-30	Blue 30	rgb(1, 68, 134)#014486PALETTE_BLUE_30	2.14.0	No
+$palette-blue-40	Blue 40	rgb(11, 92, 171)#0b5cabPALETTE_BLUE_40	2.14.0	No
+$palette-blue-50	Blue 50	rgb(1, 118, 211)#0176d3PALETTE_BLUE_50	2.14.0	No
+$palette-blue-60	Blue 60	rgb(27, 150, 255)#1b96ffPALETTE_BLUE_60	2.14.0	No
+$palette-blue-65	Blue 65	rgb(87, 163, 253)#57a3fdPALETTE_BLUE_65	2.14.0	No
+$palette-blue-70	Blue 70	rgb(120, 176, 253)#78b0fdPALETTE_BLUE_70	2.14.0	No
+$palette-blue-80	Blue 80	rgb(170, 203, 255)#aacbffPALETTE_BLUE_80	2.14.0	No
+$palette-blue-90	Blue 90	rgb(216, 230, 254)#d8e6fePALETTE_BLUE_90	2.14.0	No
+$palette-blue-95	Blue 95	rgb(238, 244, 255)#eef4ffPALETTE_BLUE_95	2.14.0	No
+$palette-cloud-blue-10	Cloud Blue 10	rgb(0, 26, 40)#001a28PALETTE_CLOUD_BLUE_10	2.14.0	No
+$palette-cloud-blue-15	Cloud Blue 15	rgb(10, 38, 54)#0a2636PALETTE_CLOUD_BLUE_15	2.14.0	No
+$palette-cloud-blue-20	Cloud Blue 20	rgb(2, 50, 72)#023248PALETTE_CLOUD_BLUE_20	2.14.0	No
+$palette-cloud-blue-30	Cloud Blue 30	rgb(8, 73, 104)#084968PALETTE_CLOUD_BLUE_30	2.14.0	No
+$palette-cloud-blue-40	Cloud Blue 40	rgb(5, 98, 138)#05628aPALETTE_CLOUD_BLUE_40	2.14.0	No
+$palette-cloud-blue-50	Cloud Blue 50	rgb(16, 124, 173)#107cadPALETTE_CLOUD_BLUE_50	2.14.0	No
+$palette-cloud-blue-60	Cloud Blue 60	rgb(13, 157, 218)#0d9ddaPALETTE_CLOUD_BLUE_60	2.14.0	No
+$palette-cloud-blue-65	Cloud Blue 65	rgb(8, 171, 237)#08abedPALETTE_CLOUD_BLUE_65	2.14.0	No
+$palette-cloud-blue-70	Cloud Blue 70	rgb(26, 185, 255)#1ab9ffPALETTE_CLOUD_BLUE_70	2.14.0	No
+$palette-cloud-blue-80	Cloud Blue 80	rgb(144, 208, 254)#90d0fePALETTE_CLOUD_BLUE_80	2.14.0	No
+$palette-cloud-blue-90	Cloud Blue 90	rgb(207, 233, 254)#cfe9fePALETTE_CLOUD_BLUE_90	2.14.0	No
+$palette-cloud-blue-95	Cloud Blue 95	rgb(234, 245, 254)#eaf5fePALETTE_CLOUD_BLUE_95	2.14.0	No
+$palette-green-10	Green 10	rgb(7, 27, 18)#071b12PALETTE_GREEN_10	2.14.0	No
+$palette-green-15	Green 15	rgb(12, 41, 18)#0c2912PALETTE_GREEN_15	2.14.0	No
+$palette-green-20	Green 20	rgb(28, 51, 38)#1c3326PALETTE_GREEN_20	2.14.0	No
+$palette-green-30	Green 30	rgb(25, 78, 49)#194e31PALETTE_GREEN_30	2.14.0	No
+$palette-green-40	Green 40	rgb(57, 101, 71)#396547PALETTE_GREEN_40	2.14.0	No
+$palette-green-50	Green 50	rgb(46, 132, 74)#2e844aPALETTE_GREEN_50	2.14.0	No
+$palette-green-60	Green 60	rgb(59, 167, 85)#3ba755PALETTE_GREEN_60	2.14.0	No
+$palette-green-65	Green 65	rgb(65, 182, 88)#41b658PALETTE_GREEN_65	2.14.0	No
+$palette-green-70	Green 70	rgb(69, 198, 90)#45c65aPALETTE_GREEN_70	2.14.0	No
+$palette-green-80	Green 80	rgb(145, 219, 139)#91db8bPALETTE_GREEN_80	2.14.0	No
+$palette-green-90	Green 90	rgb(205, 239, 196)#cdefc4PALETTE_GREEN_90	2.14.0	No
+$palette-green-95	Green 95	rgb(235, 247, 230)#ebf7e6PALETTE_GREEN_95	2.14.0	No
+$palette-hot-orange-10	Hot Orange 10	rgb(40, 18, 2)#281202PALETTE_HOT_ORANGE_10	2.14.0	No
+$palette-hot-orange-15	Hot Orange 15	rgb(66, 22, 4)#421604PALETTE_HOT_ORANGE_15	2.14.0	No
+$palette-hot-orange-20	Hot Orange 20	rgb(74, 36, 19)#4a2413PALETTE_HOT_ORANGE_20	2.14.0	No
+$palette-hot-orange-30	Hot Orange 30	rgb(126, 38, 0)#7e2600PALETTE_HOT_ORANGE_30	2.14.0	No
+$palette-hot-orange-40	Hot Orange 40	rgb(170, 48, 1)#aa3001PALETTE_HOT_ORANGE_40	2.14.0	No
+$palette-hot-orange-50	Hot Orange 50	rgb(216, 58, 0)#d83a00PALETTE_HOT_ORANGE_50	2.14.0	No
+$palette-hot-orange-60	Hot Orange 60	rgb(255, 93, 45)#ff5d2dPALETTE_HOT_ORANGE_60	2.14.0	No
+$palette-hot-orange-65	Hot Orange 65	rgb(255, 120, 79)#ff784fPALETTE_HOT_ORANGE_65	2.14.0	No
+$palette-hot-orange-70	Hot Orange 70	rgb(255, 144, 110)#ff906ePALETTE_HOT_ORANGE_70	2.14.0	No
+$palette-hot-orange-80	Hot Orange 80	rgb(254, 185, 165)#feb9a5PALETTE_HOT_ORANGE_80	2.14.0	No
+$palette-hot-orange-90	Hot Orange 90	rgb(255, 222, 213)#ffded5PALETTE_HOT_ORANGE_90	2.14.0	No
+$palette-hot-orange-95	Hot Orange 95	rgb(254, 241, 237)#fef1edPALETTE_HOT_ORANGE_95	2.14.0	No
+$palette-indigo-10	Indigo 10	rgb(32, 6, 71)#200647PALETTE_INDIGO_10	2.14.0	No
+$palette-indigo-15	Indigo 15	rgb(31, 9, 116)#1f0974PALETTE_INDIGO_15	2.14.0	No
+$palette-indigo-20	Indigo 20	rgb(50, 29, 113)#321d71PALETTE_INDIGO_20	2.14.0	No
+$palette-indigo-30	Indigo 30	rgb(47, 44, 183)#2f2cb7PALETTE_INDIGO_30	2.14.0	No
+$palette-indigo-40	Indigo 40	rgb(58, 73, 218)#3a49daPALETTE_INDIGO_40	2.14.0	No
+$palette-indigo-50	Indigo 50	rgb(88, 103, 232)#5867e8PALETTE_INDIGO_50	2.14.0	No
+$palette-indigo-60	Indigo 60	rgb(127, 140, 237)#7f8cedPALETTE_INDIGO_60	2.14.0	No
+$palette-indigo-65	Indigo 65	rgb(142, 155, 239)#8e9befPALETTE_INDIGO_65	2.14.0	No
+$palette-indigo-70	Indigo 70	rgb(158, 169, 241)#9ea9f1PALETTE_INDIGO_70	2.14.0	No
+$palette-indigo-80	Indigo 80	rgb(190, 199, 246)#bec7f6PALETTE_INDIGO_80	2.14.0	No
+$palette-indigo-90	Indigo 90	rgb(224, 229, 248)#e0e5f8PALETTE_INDIGO_90	2.14.0	No
+$palette-indigo-95	Indigo 95	rgb(241, 243, 251)#f1f3fbPALETTE_INDIGO_95	2.14.0	No
+$palette-neutral-10	Neutral 10	rgb(24, 24, 24)#181818PALETTE_NEUTRAL_10	2.16.0	No
+$palette-neutral-20	Neutral 20	rgb(46, 46, 46)#2e2e2ePALETTE_NEUTRAL_20	2.16.0	No
+$palette-neutral-30	Neutral 30	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	2.16.0	No
+$palette-neutral-40	Neutral 40	rgb(92, 92, 92)#5c5c5cPALETTE_NEUTRAL_40	2.16.0	No
+$palette-neutral-50	Neutral 50	rgb(116, 116, 116)#747474PALETTE_NEUTRAL_50	2.16.0	No
+$palette-neutral-60	Neutral 60	rgb(147, 147, 147)#939393PALETTE_NEUTRAL_60	2.16.0	No
+$palette-neutral-70	Neutral 70	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	2.16.0	No
+$palette-neutral-80	Neutral 80	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	2.16.0	No
+$palette-neutral-90	Neutral 90	rgb(229, 229, 229)#e5e5e5PALETTE_NEUTRAL_90	2.16.0	No
+$palette-neutral-95	Neutral 95	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	2.16.0	No
+$palette-neutral-100	Neutral 100	rgb(255, 255, 255)#ffffffPALETTE_NEUTRAL_100	2.16.0	No
+$palette-orange-10	Orange 10	rgb(32, 22, 0)#201600PALETTE_ORANGE_10	2.14.0	No
+$palette-orange-15	Orange 15	rgb(55, 30, 3)#371e03PALETTE_ORANGE_15	2.14.0	No
+$palette-orange-20	Orange 20	rgb(62, 43, 2)#3e2b02PALETTE_ORANGE_20	2.14.0	No
+$palette-orange-30	Orange 30	rgb(95, 62, 2)#5f3e02PALETTE_ORANGE_30	2.14.0	No
+$palette-orange-40	Orange 40	rgb(130, 81, 1)#825101PALETTE_ORANGE_40	2.14.0	No
+$palette-orange-50	Orange 50	rgb(169, 100, 4)#a96404PALETTE_ORANGE_50	2.14.0	No
+$palette-orange-60	Orange 60	rgb(221, 122, 1)#dd7a01PALETTE_ORANGE_60	2.14.0	No
+$palette-orange-65	Orange 65	rgb(243, 131, 3)#f38303PALETTE_ORANGE_65	2.14.0	No
+$palette-orange-70	Orange 70	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	2.14.0	No
+$palette-orange-80	Orange 80	rgb(255, 186, 144)#ffba90PALETTE_ORANGE_80	2.14.0	No
+$palette-orange-90	Orange 90	rgb(254, 223, 208)#fedfd0PALETTE_ORANGE_90	2.14.0	No
+$palette-orange-95	Orange 95	rgb(255, 241, 234)#fff1eaPALETTE_ORANGE_95	2.14.0	No
+$palette-pink-10	Pink 10	rgb(55, 1, 20)#370114PALETTE_PINK_10	2.14.0	No
+$palette-pink-15	Pink 15	rgb(75, 6, 32)#4b0620PALETTE_PINK_15	2.14.0	No
+$palette-pink-20	Pink 20	rgb(97, 2, 42)#61022aPALETTE_PINK_20	2.14.0	No
+$palette-pink-30	Pink 30	rgb(138, 3, 62)#8a033ePALETTE_PINK_30	2.14.0	No
+$palette-pink-40	Pink 40	rgb(182, 5, 84)#b60554PALETTE_PINK_40	2.14.0	No
+$palette-pink-50	Pink 50	rgb(227, 6, 106)#e3066aPALETTE_PINK_50	2.14.0	No
+$palette-pink-60	Pink 60	rgb(255, 83, 138)#ff538aPALETTE_PINK_60	2.14.0	No
+$palette-pink-65	Pink 65	rgb(254, 114, 152)#fe7298PALETTE_PINK_65	2.14.0	No
+$palette-pink-70	Pink 70	rgb(254, 138, 167)#fe8aa7PALETTE_PINK_70	2.14.0	No
+$palette-pink-80	Pink 80	rgb(253, 182, 197)#fdb6c5PALETTE_PINK_80	2.14.0	No
+$palette-pink-90	Pink 90	rgb(253, 221, 227)#fddde3PALETTE_PINK_90	2.14.0	No
+$palette-pink-95	Pink 95	rgb(254, 240, 243)#fef0f3PALETTE_PINK_95	2.14.0	No
+$palette-purple-10	Purple 10	rgb(36, 6, 67)#240643PALETTE_PURPLE_10	2.14.0	No
+$palette-purple-15	Purple 15	rgb(48, 11, 96)#300b60PALETTE_PURPLE_15	2.14.0	No
+$palette-purple-20	Purple 20	rgb(64, 16, 117)#401075PALETTE_PURPLE_20	2.14.0	No
+$palette-purple-30	Purple 30	rgb(90, 27, 169)#5a1ba9PALETTE_PURPLE_30	2.14.0	No
+$palette-purple-40	Purple 40	rgb(117, 38, 227)#7526e3PALETTE_PURPLE_40	2.14.0	No
+$palette-purple-50	Purple 50	rgb(144, 80, 233)#9050e9PALETTE_PURPLE_50	2.14.0	No
+$palette-purple-60	Purple 60	rgb(173, 123, 238)#ad7beePALETTE_PURPLE_60	2.14.0	No
+$palette-purple-65	Purple 65	rgb(183, 141, 239)#b78defPALETTE_PURPLE_65	2.14.0	No
+$palette-purple-70	Purple 70	rgb(194, 158, 241)#c29ef1PALETTE_PURPLE_70	2.14.0	No
+$palette-purple-80	Purple 80	rgb(215, 191, 242)#d7bff2PALETTE_PURPLE_80	2.14.0	No
+$palette-purple-90	Purple 90	rgb(236, 225, 249)#ece1f9PALETTE_PURPLE_90	2.14.0	No
+$palette-purple-95	Purple 95	rgb(246, 242, 251)#f6f2fbPALETTE_PURPLE_95	2.14.0	No
+$palette-red-10	Red 10	rgb(48, 12, 1)#300c01PALETTE_RED_10	2.14.0	No
+$palette-red-15	Red 15	rgb(74, 12, 4)#4a0c04PALETTE_RED_15	2.14.0	No
+$palette-red-20	Red 20	rgb(100, 1, 3)#640103PALETTE_RED_20	2.14.0	No
+$palette-red-30	Red 30	rgb(142, 3, 15)#8e030fPALETTE_RED_30	2.14.0	No
+$palette-red-40	Red 40	rgb(186, 5, 23)#ba0517PALETTE_RED_40	2.14.0	No
+$palette-red-50	Red 50	rgb(234, 0, 30)#ea001ePALETTE_RED_50	2.14.0	No
+$palette-red-60	Red 60	rgb(254, 92, 76)#fe5c4cPALETTE_RED_60	2.14.0	No
+$palette-red-65	Red 65	rgb(254, 119, 101)#fe7765PALETTE_RED_65	2.14.0	No
+$palette-red-70	Red 70	rgb(254, 143, 125)#fe8f7dPALETTE_RED_70	2.14.0	No
+$palette-red-80	Red 80	rgb(254, 184, 171)#feb8abPALETTE_RED_80	2.14.0	No
+$palette-red-90	Red 90	rgb(254, 222, 216)#feded8PALETTE_RED_90	2.14.0	No
+$palette-red-95	Red 95	rgb(254, 241, 238)#fef1eePALETTE_RED_95	2.14.0	No
+$palette-teal-10	Teal 10	rgb(7, 27, 18)#071b12PALETTE_TEAL_10	2.14.0	No
+$palette-teal-15	Teal 15	rgb(7, 40, 37)#072825PALETTE_TEAL_15	2.14.0	No
+$palette-teal-20	Teal 20	rgb(2, 52, 52)#023434PALETTE_TEAL_20	2.14.0	No
+$palette-teal-30	Teal 30	rgb(2, 77, 76)#024d4cPALETTE_TEAL_30	2.14.0	No
+$palette-teal-40	Teal 40	rgb(5, 103, 100)#056764PALETTE_TEAL_40	2.14.0	No
+$palette-teal-50	Teal 50	rgb(11, 130, 124)#0b827cPALETTE_TEAL_50	2.14.0	No
+$palette-teal-60	Teal 60	rgb(6, 165, 154)#06a59aPALETTE_TEAL_60	2.14.0	No
+$palette-teal-65	Teal 65	rgb(3, 180, 167)#03b4a7PALETTE_TEAL_65	2.14.0	No
+$palette-teal-70	Teal 70	rgb(1, 195, 179)#01c3b3PALETTE_TEAL_70	2.14.0	No
+$palette-teal-80	Teal 80	rgb(4, 225, 203)#04e1cbPALETTE_TEAL_80	2.14.0	No
+$palette-teal-90	Teal 90	rgb(172, 243, 228)#acf3e4PALETTE_TEAL_90	2.14.0	No
+$palette-teal-95	Teal 95	rgb(222, 249, 243)#def9f3PALETTE_TEAL_95	2.14.0	No
+$palette-violet-10	Violet 10	rgb(46, 0, 57)#2e0039PALETTE_VIOLET_10	2.14.0	No
+$palette-violet-15	Violet 15	rgb(61, 1, 87)#3d0157PALETTE_VIOLET_15	2.14.0	No
+$palette-violet-20	Violet 20	rgb(72, 26, 84)#481a54PALETTE_VIOLET_20	2.14.0	No
+$palette-violet-30	Violet 30	rgb(115, 3, 148)#730394PALETTE_VIOLET_30	2.14.0	No
+$palette-violet-40	Violet 40	rgb(150, 2, 199)#9602c7PALETTE_VIOLET_40	2.14.0	No
+$palette-violet-50	Violet 50	rgb(186, 1, 255)#ba01ffPALETTE_VIOLET_50	2.14.0	No
+$palette-violet-60	Violet 60	rgb(203, 101, 255)#cb65ffPALETTE_VIOLET_60	2.14.0	No
+$palette-violet-65	Violet 65	rgb(209, 125, 254)#d17dfePALETTE_VIOLET_65	2.14.0	No
+$palette-violet-70	Violet 70	rgb(216, 146, 254)#d892fePALETTE_VIOLET_70	2.14.0	No
+$palette-violet-80	Violet 80	rgb(229, 185, 254)#e5b9fePALETTE_VIOLET_80	2.14.0	No
+$palette-violet-90	Violet 90	rgb(242, 222, 254)#f2defePALETTE_VIOLET_90	2.14.0	No
+$palette-violet-95	Violet 95	rgb(249, 240, 255)#f9f0ffPALETTE_VIOLET_95	2.14.0	No
+$palette-yellow-10	Yellow 10	rgb(40, 18, 2)#281202PALETTE_YELLOW_10	2.14.0	No
+$palette-yellow-15	Yellow 15	rgb(46, 34, 4)#2e2204PALETTE_YELLOW_15	2.14.0	No
+$palette-yellow-20	Yellow 20	rgb(79, 33, 0)#4f2100PALETTE_YELLOW_20	2.14.0	No
+$palette-yellow-30	Yellow 30	rgb(111, 52, 0)#6f3400PALETTE_YELLOW_30	2.14.0	No
+$palette-yellow-40	Yellow 40	rgb(140, 75, 2)#8c4b02PALETTE_YELLOW_40	2.14.0	No
+$palette-yellow-50	Yellow 50	rgb(168, 100, 3)#a86403PALETTE_YELLOW_50	2.14.0	No
+$palette-yellow-60	Yellow 60	rgb(202, 133, 1)#ca8501PALETTE_YELLOW_60	2.14.0	No
+$palette-yellow-65	Yellow 65	rgb(215, 147, 4)#d79304PALETTE_YELLOW_65	2.14.0	No
+$palette-yellow-70	Yellow 70	rgb(228, 162, 1)#e4a201PALETTE_YELLOW_70	2.14.0	No
+$palette-yellow-80	Yellow 80	rgb(252, 192, 3)#fcc003PALETTE_YELLOW_80	2.14.0	No
+$palette-yellow-90	Yellow 90	rgb(249, 227, 182)#f9e3b6PALETTE_YELLOW_90	2.14.0	No
+$palette-yellow-95	Yellow 95	rgb(251, 243, 224)#fbf3e0PALETTE_YELLOW_95	2.14.0	No
+$color-background	Default background color for the whole app.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-alt	Second default background color for the app.	rgb(255, 255, 255)#ffffffWHITE	1.0.0	No
+$color-background-alt-inverse	Alternative background color for dark portions of the app.	rgb(3, 45, 96)#032d60PALETTE_BLUE_20	1.0.0	No
+$color-background-backdrop	The color of the mask overlay that appears when you enter a modal state.	rgba(255, 255, 255, 0.75)WHITE_TRANSPARENT_75	1.0.0	No
+$color-background-backdrop-tint	The color of the mask overlay that provides user feedback on interaction.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-customer	Background color for UI elements related to the concept of an external user or customer.	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$color-background-dark	Dark variant of COLOR_BACKGROUND.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	2.8.0	No
+$color-background-destructive	Color for UI elements related to destructive actions.	rgb(186, 5, 23)#ba0517PALETTE_RED_40	1.0.0	No
+$color-background-destructive-active	Active color for UI elements related to destructive actions.	rgb(142, 3, 15)#8e030fPALETTE_RED_30	1.0.0	No
+$color-background-destructive-hover	Hover color for UI elements related to destructive actions.	rgb(142, 3, 15)#8e030fPALETTE_RED_30	1.0.0	No
+$color-background-error	Color for UI elements related to errors.	rgb(254, 92, 76)#fe5c4cPALETTE_RED_60	1.0.0	No
+$color-background-error-dark	Dark color for UI elements related to errors. Accessible with white text.	rgb(186, 5, 23)#ba0517PALETTE_RED_40	1.0.0	No
+$color-background-highlight	Background color for highlighting UI elements.	rgb(250, 255, 189)#faffbdLEMON_CHIFFON	1.0.0	No
+$color-background-highlight-search	Background color for highlighting text in search results.	rgb(255, 240, 63)#fff03fGORSE	1.0.0	No
+$color-background-image-overlay	Color of mask overlay that sits on top of an image when text is present.	rgba(0, 0, 0, 0.6)BLACK_TRANSPARENT_60	1.0.0	No
+$color-background-info	Background color for UI elements related to providing neutral information (not error, success, or warning).	rgb(116, 116, 116)#747474PALETTE_NEUTRAL_50	1.0.0	No
+$color-background-input-checkbox-disabled	Disabled checkboxes	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-background-input-disabled	Disabled input	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-inverse	Default background color for dark portions of the app (like Stage Left or tooltips).	rgb(0, 22, 57)#001639PALETTE_BLUE_10	1.0.0	No
+$color-background-inverse-light	Light variant of COLOR_BACKGROUND_INVERSE.	rgb(3, 45, 96)#032d60PALETTE_BLUE_20	2.8.0	No
+$color-background-light	Light variant of COLOR_BACKGROUND.	rgb(255, 255, 255)#ffffffPALETTE_NEUTRAL_100	2.8.0	No
+$color-background-notification-new	Background color for a new notification list item.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-offline	Color for UI elements related to the offline state.	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	1.0.0	No
+$color-background-post	Background color of comment posts in the feed.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-row-active	Used as the background color for the active state on rows or items on list-like components.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-row-hover	Used as the background color for the hover state on rows or items on list-like components.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-row-new	Used as the background color for the new state on rows or items on list-like components.	rgb(205, 239, 196)#cdefc4PALETTE_GREEN_90	1.0.0	No
+$color-background-row-selected	Used as the background color for selected rows or items on list-like components.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-scrollbar	The background color of an internal scrollbar.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-scrollbar-track	The background color of an internal scrollbar track.	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-background-selection	Background color for text selected with a mouse.	rgb(216, 230, 254)#d8e6fePALETTE_BLUE_90	1.0.0	No
+$color-background-spinner-dot	Color of the spinner dot.	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-background-stencil	Used as background for loading stencils on white background.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-stencil-alt	Used as an alternate background for loading stencils on gray backgrounds.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-background-success	Color for UI elements that have to do with success.	rgb(69, 198, 90)#45c65aPALETTE_GREEN_70	1.0.0	No
+$color-background-success-dark	Dark color for UI elements that have to do with success. Accessible with white text.	rgb(46, 132, 74)#2e844aPALETTE_GREEN_50	1.0.0	No
+$color-background-success-darker	Darker color for UI elements that have to do with success. Accessible with white text.	rgb(25, 78, 49)#194e31PALETTE_GREEN_30	1.0.0	No
+$color-background-toast	Background color for toast messaging.	rgb(116, 116, 116)#747474PALETTE_NEUTRAL_50	1.0.0	No
+$color-background-toggle	Toggle background color.	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-background-toggle-disabled	Disabled toggle background color.	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-background-toggle-hover	Hovered toggle background color.	rgb(147, 147, 147)#939393PALETTE_NEUTRAL_60	1.0.0	No
+$color-background-warning	Color for UI elements that have to do with warning.	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$color-background-warning-dark	Dark Color for UI elements that have to do with warning.	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$color-brand	Our product brand blue.	rgb(27, 150, 255)#1b96ffPALETTE_BLUE_60	1.0.0	No
+$color-brand-dark	Our product brand blue, darkened to meet accessibility color contrast ratios with white text.	rgb(1, 118, 211)#0176d3PALETTE_BLUE_50	1.0.0	No
+$color-brand-darker	Our product brand blue, darkened even further.	rgb(1, 68, 134)#014486PALETTE_BLUE_30	1.0.0	No
+$color-picker-slider-thumb-color-background		rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$page-header-color-background	Default Page Header background color	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$popover-walkthrough-alt-image		/popovers/popover-action.png	1.0.0	No
+$popover-walkthrough-alt-nubbin-color-background		rgb(1, 118, 211)#0176d3PALETTE_BLUE_50	1.0.0	No
+$popover-walkthrough-color-background		rgb(0, 22, 57)#001639PALETTE_BLUE_10	1.0.0	No
+$popover-walkthrough-color-background-alt		rgb(1, 118, 211)#0176d3PALETTE_BLUE_50	1.0.0	No
+$popover-walkthrough-header-color-background		rgb(3, 45, 96)#032d60PALETTE_BLUE_20	1.0.0	No
+$popover-walkthrough-header-image		/popovers/popover-header.png	1.0.0	No
+$progress-color-background-shade		rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$progress-color-border-shade		rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$table-color-background-header		rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$table-color-background-header-hover		rgb(255, 255, 255)#ffffffPALETTE_NEUTRAL_100	1.0.0	No
+$color-text-action-label	Action label text color	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	1.0.0	No
+$color-text-action-label-active	Action label active text color	rgb(24, 24, 24)#181818PALETTE_NEUTRAL_10	1.0.0	No
+$color-text-brand	Our product brand blue.	rgb(27, 150, 255)#1b96ffPALETTE_BLUE_60	1.0.0	No
+$color-text-brand-primary	Text color found on any primary brand color	rgb(255, 255, 255)#ffffffWHITE	1.0.0	No
+$color-text-button-default-disabled	Text color for default secondary button - disabled state	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-text-button-default-hint	Text color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-text-button-inverse	Text color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-text-customer	Customer text used in anchor subtitle	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$color-text-default	Body text color	rgb(24, 24, 24)#181818PALETTE_NEUTRAL_10	1.0.0	No
+$color-text-destructive	Text color for destructive actions	rgb(234, 0, 30)#ea001ePALETTE_RED_50	1.0.0	No
+$color-text-destructive-hover	Text color for destructive actions - hover state	rgb(186, 5, 23)#ba0517PALETTE_RED_40	1.0.0	No
+$color-text-error	Error text for inputs and error misc	rgb(234, 0, 30)#ea001ePALETTE_RED_50	1.0.0	No
+$color-text-icon-default	Default icon color.	rgb(116, 116, 116)#747474PALETTE_NEUTRAL_50	1.0.0	No
+$color-text-icon-default-disabled	Default icon color - disabled state	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-text-icon-default-hint	Icon color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over.	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-text-icon-inverse	Icon color on dark background	rgb(255, 255, 255)#ffffffPALETTE_NEUTRAL_100	1.0.0	No
+$color-text-icon-inverse-active	Icon color on dark background - active state	rgb(255, 255, 255)#ffffffPALETTE_NEUTRAL_100	1.0.0	No
+$color-text-icon-inverse-hover	Icon color on dark background - hover state	rgb(255, 255, 255)#ffffffPALETTE_NEUTRAL_100	1.0.0	No
+$color-text-input-disabled	Input disabled text	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	1.0.0	No
+$color-text-input-icon	Input icon	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-text-inverse	Inverse text color for dark backgrounds	rgb(255, 255, 255)#ffffffWHITE	1.0.0	No
+$color-text-inverse-weak	Weak inverse text color for dark backgrounds	rgb(174, 174, 174)#aeaeaePALETTE_NEUTRAL_70	1.0.0	No
+$color-text-label	Text color for field labels.	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	1.0.0	No
+$color-text-link	Link text (508)	rgb(1, 118, 211)#0176d3BRAND_TEXT_LINK	1.0.0	No
+$color-text-link-active	Active link text	rgb(3, 45, 96)#032d60PALETTE_BLUE_20	1.0.0	No
+$color-text-link-disabled	Disabled link text	rgb(3, 45, 96)#032d60PALETTE_BLUE_20	1.0.0	No
+$color-text-link-focus	Focus link text	rgb(1, 68, 134)#014486PALETTE_BLUE_30	1.0.0	No
+$color-text-link-hover	Hover link text	rgb(1, 68, 134)#014486BRAND_TEXT_LINK_ACTIVE	1.0.0	No
+$color-text-link-inverse	Link color on dark background	rgb(255, 255, 255)#ffffffWHITE	1.0.0	No
+$color-text-link-inverse-active	Link color on dark background - active state	rgba(255, 255, 255, 0.5)WHITE_TRANSPARENT_50	1.0.0	No
+$color-text-link-inverse-disabled	Link color on dark background - disabled state	rgba(255, 255, 255, 0.15)WHITE_TRANSPARENT_15	1.0.0	No
+$color-text-link-inverse-hover	Link color on dark background - hover state	rgba(255, 255, 255, 0.75)WHITE_TRANSPARENT_75	1.0.0	No
+$color-text-placeholder	Input placeholder text.	rgb(116, 116, 116)#747474PALETTE_NEUTRAL_50	1.0.0	No
+$color-text-placeholder-inverse	Input placeholder text on dark backgrounds.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-text-required	Color of required field marker.	rgb(234, 0, 30)#ea001ePALETTE_RED_50	1.0.0	No
+$color-text-success	Text color for success text.	rgb(46, 132, 74)#2e844aPALETTE_GREEN_50	1.0.0	No
+$color-text-success-inverse	Text color for success text on dark backgrounds.	rgb(69, 198, 90)#45c65aPALETTE_GREEN_70	1.0.0	No
+$color-text-tab-label	Color for default text in a tab group.	rgb(24, 24, 24)#181818PALETTE_NEUTRAL_10	1.0.0	No
+$color-text-tab-label-disabled	Color for disabled text in a tab group.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-text-toggle-disabled	Color for disabled toggles	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-text-warning	Color for texts or icons that are related to warnings on a dark background.	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$color-text-warning-alt	Color for texts that are related to warnings on a light background.	rgb(140, 75, 2)#8c4b02PALETTE_YELLOW_40	1.0.0	No
+$color-text-weak	Color for text that is purposefully de-emphasized to create visual hierarchy.	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	1.0.0	No
+$button-color-border-primary		rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$card-color-border		rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$card-footer-color-border		rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-border	Default border color for UI elements.	rgb(229, 229, 229)#e5e5e5PALETTE_NEUTRAL_90	1.0.0	No
+$color-border-brand	Our product brand blue.	rgb(27, 150, 255)#1b96ffPALETTE_BLUE_60	1.0.0	No
+$color-border-brand-dark	Our product brand blue, darkened to meet accessibility color contrast ratios with white text.	rgb(1, 68, 134)#014486PALETTE_BLUE_30	1.0.0	No
+$color-border-button-default	Border color for default secondary button	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-border-button-focus-inverse		rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-border-customer	Border color for UI elements related to the concept of an external user or customer.	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$color-border-destructive	Border color for UI elements that have to do with destructive actions.	rgb(234, 0, 30)#ea001ePALETTE_RED_50	1.0.0	No
+$color-border-destructive-active	Active border color for UI elements that have to do with destructive actions.	rgb(142, 3, 15)#8e030fPALETTE_RED_30	1.0.0	No
+$color-border-destructive-hover	Hover border color for UI elements that have to do with destructive actions.	rgb(186, 5, 23)#ba0517PALETTE_RED_40	1.0.0	No
+$color-border-error	Border color for UI elements that have to do with errors.	rgb(234, 0, 30)#ea001ePALETTE_RED_50	1.0.0	No
+$color-border-error-alt	Alternative border color for UI elements related to errors.	rgb(254, 143, 125)#fe8f7dPALETTE_RED_70	1.0.0	No
+$color-border-error-dark	Dark alternative border color for UI elements related to errors.	rgb(254, 143, 125)#fe8f7dPALETTE_RED_70	1.0.0	No
+$color-border-info	Border color for UI elements related to providing neutral information (not error, success, or warning).	rgb(116, 116, 116)#747474PALETTE_NEUTRAL_50	1.0.0	No
+$color-border-input	Border color on form elements.	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-border-input-disabled	Border color on disabled form elements.	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-border-inverse	Border color to match UI elements using color-background-inverse.	rgb(0, 22, 57)#001639PALETTE_BLUE_10	1.0.0	No
+$color-border-link-focus-inverse		rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-border-offline	Border color for UI elements related to the offline state.	rgb(68, 68, 68)#444444PALETTE_NEUTRAL_30	1.0.0	No
+$color-border-reminder	Border color on notification reminders.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-border-row-selected	Used as the border color for selected rows or items on list-like components.	rgb(1, 118, 211)#0176d3PALETTE_BLUE_50	1.0.0	No
+$color-border-row-selected-hover	Used as the border color for the hover state on selected rows or items on list-like components.	rgb(27, 150, 255)#1b96ffPALETTE_BLUE_60	1.0.0	No
+$color-border-selection	Used to delineate the boundary of a selected component. Specific to builders.	rgb(1, 118, 211)#0176d3PALETTE_BLUE_50	1.0.0	No
+$color-border-selection-active	Used to delineate the boundary of a component that is being clicked. Specific to builders.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-border-selection-hover	Used to delineate the boundary of a component that is being hovered over. Specific to builders.	rgb(27, 150, 255)#1b96ffPALETTE_BLUE_60	1.0.0	No
+$color-border-separator	Lightest separator color - used as default separator on white backgrounds.	rgb(243, 243, 243)#f3f3f3PALETTE_NEUTRAL_95	1.0.0	No
+$color-border-separator-alt	Medium separator color - used as default separator on light gray backgrounds.	rgb(229, 229, 229)#e5e5e5PALETTE_NEUTRAL_90	1.0.0	No
+$color-border-separator-alt-2	Darkest separator color - used as an alternate separator color when more differentiation is desired.	rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$color-border-separator-inverse	Used as a separator on dark backgrounds, such as stage left navigation.	rgb(3, 45, 96)#032d60PALETTE_BLUE_20	1.0.0	No
+$color-border-success	Border color for UI elements that have to do with success.	rgb(145, 219, 139)#91db8bPALETTE_GREEN_80	1.0.0	No
+$color-border-success-dark	Dark alternative border color for UI elements that have to do with success.	rgb(46, 132, 74)#2e844aPALETTE_GREEN_50	1.0.0	No
+$color-border-warning	Border color for UI elements that have to do with warnings.	rgb(254, 147, 57)#fe9339PALETTE_ORANGE_70	1.0.0	No
+$page-header-color-border		rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$page-header-joined-color-border		rgb(201, 201, 201)#c9c9c9PALETTE_NEUTRAL_80	1.0.0	No
+$card-font-weight	Use for active tab.	700FONT_WEIGHT_BOLD	1.0.0	No
+$font-family	Default font-family for Salesforce applications	-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'SANS_SERIF	1.0.0	No
+$font-family-heading		-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'SANS_SERIF	1.0.0	No
+$font-family-monospace		Consolas, Menlo, Monaco, Courier, monospaceMONOSPACE	1.0.0	No
+$font-weight-bold	Used sparingly for emphasized text within regular body copy.	700FONT_WEIGHT_BOLD	1.0.0	No
+$font-weight-regular	Most all body copy.	400FONT_WEIGHT_REGULAR	1.0.0	No
+$form-label-font-size		0.75remFONT_SIZE_212px	1.0.0	No
+$input-static-font-size		0.875remFONT_SIZE_414px	1.0.0	No
+$input-static-font-weight		400FONT_WEIGHT_REGULAR	1.0.0	No
+$page-header-title-font-weight		700FONT_WEIGHT_BOLD	1.0.0	No
+$tabs-font-weight	Use for active tab.	700FONT_WEIGHT_BOLD	1.0.0	No
+$font-size-1	Constant typography token for font size 1	0.625remFONT_SIZE_110px	1.0.0	No
+$font-size-2	Constant typography token for font size 2	0.75remFONT_SIZE_212px	1.0.0	No
+$font-size-3	Constant typography token for font size 3	0.8125remFONT_SIZE_313px	1.0.0	No
+$font-size-4	Constant typography token for font size 4	0.875remFONT_SIZE_414px	1.0.0	No
+$font-size-5	Constant typography token for font size 5	1remFONT_SIZE_516px	1.0.0	No
+$font-size-6	Constant typography token for font size 6	1.125remFONT_SIZE_618px	1.0.0	No
+$font-size-7	Constant typography token for font size 7	1.25remFONT_SIZE_720px	1.0.0	No
+$font-size-8	Constant typography token for font size 8	1.5remFONT_SIZE_824px	1.0.0	No
+$font-size-9	Constant typography token for font size 9	1.75remFONT_SIZE_928px	1.0.0	No
+$font-size-10	Constant typography token for font size 10	2remFONT_SIZE_1032px	1.0.0	No
+$font-size-11	Constant typography token for font size 11	2.625remFONT_SIZE_1142px	1.0.0	No
+$var-font-size-1	Variable typography token for font size 1	0.625remFONT_SIZE_110px	1.0.0	No
+$var-font-size-2	Variable typography token for font size 2	0.75remFONT_SIZE_212px	1.0.0	No
+$var-font-size-3	Variable typography token for font size 3	0.8125remFONT_SIZE_313px	1.0.0	No
+$var-font-size-4	Variable typography token for font size 4	0.875remFONT_SIZE_414px	1.0.0	No
+$var-font-size-5	Variable typography token for font size 5	1remFONT_SIZE_516px	1.0.0	No
+$var-font-size-6	Variable typography token for font size 6	1.125remFONT_SIZE_618px	1.0.0	No
+$var-font-size-7	Variable typography token for font size 7	1.25remFONT_SIZE_720px	1.0.0	No
+$var-font-size-8	Variable typography token for font size 8	1.5remFONT_SIZE_824px	1.0.0	No
+$var-font-size-9	Variable typography token for font size 9	1.75remFONT_SIZE_928px	1.0.0	No
+$var-font-size-10	Variable typography token for font size 10	2remFONT_SIZE_1032px	1.0.0	No
+$var-font-size-11	Variable typography token for font size 11	2.625remFONT_SIZE_1142px	1.0.0	No
+$opacity-5	50% transparency of an element	0.5	1.0.0	No
+$opacity-8	80% transparency of an element	0.8	1.0.0	No
+$line-height-heading	Unitless line-heights for reusability	1.25	1.0.0	No
+$line-height-reset	Remove extra leading. Unitless line-heights for reusability	1	1.0.0	No
+$line-height-text	Unitless line-heights for reusability	1.5	1.0.0	No
+$var-line-height-text	Variable unitless line-heights for reusability	1.5	1.0.0	No
+$spacing-large	Constant spacing token for size Large	1.5remSPACING_LARGE24px	1.0.0	No
+$spacing-medium	Constant spacing token for size Medium	1remSPACING_MEDIUM16px	1.0.0	No
+$spacing-none	Constant spacing token for 0	0SPACING_NONE	1.0.0	No
+$spacing-small	Constant spacing token for size Small	0.75remSPACING_SMALL12px	1.0.0	No
+$spacing-x-large	Constant spacing token for size X Large	2remSPACING_X_LARGE32px	1.0.0	No
+$spacing-x-small	Constant spacing token for size X small	0.5remSPACING_X_SMALL8px	1.0.0	No
+$spacing-xx-large	Constant spacing token for size XX Large	3remSPACING_XX_LARGE48px	1.0.0	No
+$spacing-xx-small	Constant spacing token for size XX small	0.25remSPACING_XX_SMALL4px	1.0.0	No
+$spacing-xxx-small	Constant spacing token for size XXX small	0.125remSPACING_XXX_SMALL2px	1.0.0	No
+$table-cell-spacing		0.25rem 0.5remSPACING_XX_SMALL SPACING_X_SMALL4px 8px	1.0.0	No
+$template-gutters		0.75remSPACING_SMALL12px	1.0.0	No
+$template-profile-gutters		8rem 0.75rem 0.75rem8rem SPACING_SMALL SPACING_SMALL128px 12px 12px	1.0.0	No
+$var-spacing-horizontal-large	Variable horizontal spacing token for size Large	1.5remSPACING_LARGE24px	2.7.0	No
+$var-spacing-horizontal-medium	Variable horizontal spacing token for size Medium	1remSPACING_MEDIUM16px	2.7.0	No
+$var-spacing-horizontal-small	Variable horizontal spacing token for size Small	0.75remSPACING_SMALL12px	2.7.0	No
+$var-spacing-horizontal-x-large	Variable horizontal spacing token for size X Large	2remSPACING_X_LARGE32px	2.7.0	No
+$var-spacing-horizontal-x-small	Variable horizontal spacing token for size X Small	0.5remSPACING_X_SMALL8px	2.7.0	No
+$var-spacing-horizontal-xx-large	Variable horizontal spacing token for size XX Large	3remSPACING_XX_LARGE48px	2.7.0	No
+$var-spacing-horizontal-xx-small	Variable horizontal spacing token for size XX Small	0.25remSPACING_XX_SMALL4px	2.7.0	No
+$var-spacing-horizontal-xxx-small	Variable horizontal spacing token for size XXX Small	0.125remSPACING_XXX_SMALL2px	2.7.0	No
+$var-spacing-large	Variable spacing token for size Large	1.5remSPACING_LARGE24px	2.7.0	No
+$var-spacing-medium	Variable spacing token for size Medium	1remSPACING_MEDIUM16px	2.7.0	No
+$var-spacing-small	Variable spacing token for size Small	0.75remSPACING_SMALL12px	2.7.0	No
+$var-spacing-vertical-large	Variable vertical spacing token for size Large	1.5remSPACING_LARGE24px	2.7.0	No
+$var-spacing-vertical-medium	Variable vertical spacing token for size Medium	1remSPACING_MEDIUM16px	2.7.0	No
+$var-spacing-vertical-small	Variable vertical spacing token for size Small	0.75remSPACING_SMALL12px	2.7.0	No
+$var-spacing-vertical-x-large	Variable vertical spacing token for size X Large	2remSPACING_X_LARGE32px	2.7.0	No
+$var-spacing-vertical-x-small	Variable vertical spacing token for size X Small	0.5remSPACING_X_SMALL8px	2.7.0	No
+$var-spacing-vertical-xx-large	Variable vertical spacing token for size XX Large	3remSPACING_XX_LARGE48px	2.7.0	No
+$var-spacing-vertical-xx-small	Variable vertical spacing token for size XX Small	0.25remSPACING_XX_SMALL4px	2.7.0	No
+$var-spacing-vertical-xxx-small	Variable vertical spacing token for size XXX Small	0.125remSPACING_XXX_SMALL2px	2.7.0	No
+$var-spacing-x-large	Variable spacing token for size X Large	2remSPACING_X_LARGE32px	2.7.0	No
+$var-spacing-x-small	Variable spacing token for size X Small	0.5remSPACING_X_SMALL8px	2.7.0	No
+$var-spacing-xx-large	Variable spacing token for size XX Large	3remSPACING_XX_LARGE48px	2.7.0	No
+$var-spacing-xx-small	Variable spacing token for size XX Small	0.25remSPACING_XX_SMALL4px	2.7.0	No
+$var-spacing-xxx-small	Variable spacing token for size XXX Small	0.125remSPACING_XXX_SMALL2px	2.7.0	No
+$border-radius-circle	Circle for global use, action icon bgd shape	50%BORDER_RADIUS_CIRCLE	1.0.0	No
+$border-radius-large		0.5remBORDER_RADIUS_LARGE8px	1.0.0	No
+$border-radius-medium	Icons in lists, record home icon, unbound input elements	0.25remBORDER_RADIUS_MEDIUM4px	1.0.0	No
+$border-radius-small		0.125remBORDER_RADIUS_SMALL2px	1.0.0	No
+$page-header-border-radius		0.25remBORDER_RADIUS_MEDIUM4px	1.0.0	No
+$table-border-radius		0 0 0.25rem 0.25rem0 0 BORDER_RADIUS_MEDIUM BORDER_RADIUS_MEDIUM0 0 4px 4px	1.0.0	No
+$height-header	Header for desktop.	3.125rem50px	1.0.0	No
+$size-large	Generic sizing token scale for UI components.	25remSIZE_LARGE400px	1.0.0	No
+$size-medium	Generic sizing token scale for UI components.	20remSIZE_MEDIUM320px	1.0.0	No
+$size-small	Generic sizing token scale for UI components.	15remSIZE_SMALL240px	1.0.0	No
+$size-x-large	Generic sizing token scale for UI components.	40remSIZE_X_LARGE640px	1.0.0	No
+$size-x-small	Generic sizing token scale for UI components.	12remSIZE_X_SMALL192px	1.0.0	No
+$size-xx-large	Generic sizing token scale for UI components.	60remSIZE_XX_LARGE960px	1.0.0	No
+$size-xx-small	Generic sizing token scale for UI components.	6remSIZE_XX_SMALL96px	1.0.0	No
+$size-xxx-small	Generic sizing token scale for UI components.	3remSIZE_XXX_SMALL48px	1.0.0	No
+$square-icon-large-boundary	Anchor: Outer colored tile	3rem48px	1.0.0	No
+$square-icon-large-boundary-alt	Anchor: avatar	5rem80px	1.0.0	No
+$square-icon-large-content	Anchor: Icon content (white shape)	2remSIZE_SQUARE_XX_LARGE32px	1.0.0	No
+$square-icon-medium	Medium tap target size	2rem32px	1.0.0	No
+$square-icon-medium-boundary	Stage left & actions: Outer colored tile	2remSIZE_SQUARE_XX_LARGE32px	1.0.0	No
+$square-icon-medium-boundary-alt	Icon button boundary.	2.25remSIZE_SQUARE_XXX_LARGE36px	1.0.0	No
+$square-icon-medium-content	Stage left & actions: Icon content (white shape)	1remSIZE_SQUARE_MEDIUM16px	1.0.0	No
+$square-icon-medium-content-alt	Alternate medium tap target size	0.875remSIZE_SQUARE_SMALL14px	1.0.0	No
+$square-icon-small-boundary	Search Results: Outer colored tile	1.5remSIZE_SQUARE_X_LARGE24px	1.0.0	No
+$square-icon-small-content	Search Results: Icon content (white shape)	0.75remSIZE_SQUARE_XX_SMALL12px	1.0.0	No
+$square-icon-utility-large	Large utility icon without border.	1.5remSIZE_SQUARE_X_LARGE24px	1.0.0	No
+$square-icon-utility-medium	Medium utility icon without border.	1.25remSIZE_SQUARE_LARGE20px	1.0.0	No
+$square-icon-utility-small	Small utility icon without border.	1remSIZE_SQUARE_MEDIUM16px	1.0.0	No
+$square-icon-x-small-boundary	Very small icon button boundary.	1.25remSIZE_SQUARE_LARGE20px	1.0.0	No
+$square-icon-x-small-content	Very small icons in icon buttons.	0.5remSIZE_SQUARE_XXX_SMALL8px	1.0.0	No
+$square-icon-xx-small-boundary	Very very small icon button boundary.	1remSIZE_SQUARE_MEDIUM16px	1.0.0	No
+$var-square-icon-medium-boundary	Variable medium boundary for square icons	2remSIZE_SQUARE_XX_LARGE32px	1.0.0	No
+$card-shadow	Hard dropshadow found on outer cards	0 2px 2px 0 rgba(0, 0, 0, 0.10)0 2px 2px 0 BLACK_TRANSPARENT_10	1.0.0	No
+$page-header-shadow	Hard dropshadow on page header	0 2px 2px 0 rgba(0, 0, 0, 0.10)0 2px 2px 0 BLACK_TRANSPARENT_10	1.0.0	No
+$shadow-active	Shadow for active states on interactive elements.	0 0 2px #0176d3OFFSET_NONE OFFSET_NONE OFFSET_X_SMALLpx BRAND_ACCESSIBLE	1.0.0	No
+$shadow-drag	Shadow for drag-n-drop.	0 2px 4px 0 rgba(0, 0, 0, 0.40)OFFSET_NONE OFFSET_X_SMALLpx OFFSET_MEDIUMpx OFFSET_NONE BLACK_TRANSPARENT_40	1.0.0	No
+$shadow-drop-down	Shadow for drop down.	0 2px 3px 0 rgba(0, 0, 0, 0.16)OFFSET_NONE OFFSET_X_SMALLpx OFFSET_SMALLpx OFFSET_NONE BLACK_TRANSPARENT_16	1.0.0	No
+$duration-immediately	0.05 seconds, 3 frames	0.05sDURATION_IMMEDIATELY	1.0.0	No
+$duration-instantly	0 seconds, 0 frames	0sDURATION_INSTANTLY	1.0.0	No
+$duration-paused	3.2 seconds, 192 frames	3.2sDURATION_PAUSED	1.0.0	No
+$duration-promptly	0.2 seconds, 12 frames	0.2sDURATION_PROMPTLY	1.0.0	No
+$duration-quickly	0.1 seconds, 6 frames	0.1sDURATION_QUICKLY	1.0.0	No
+$duration-slowly	0.4 seconds, 24 frames	0.4sDURATION_SLOWLY	1.0.0	No
+$height-tappable	Tap target size for elements that rely on height or line-height	2.75rem44px	2.10.0	No
+$height-tappable-small	Small tap target size for elements that rely on height or line-height	2rem32px	2.10.0	No
+$square-tappable	Tap target size for elements that rely on width and height dimensions	2.75rem44px	1.0.0	No
+$square-tappable-small	Small tap target size for elements that rely on width and height dimensions	2rem32px	2.10.0	No
+$square-tappable-x-small	X-small tap target size for elements that rely on width and height dimensions	1.5rem24px	2.10.0	No
+$square-tappable-xx-small	Xx-small tap target size for elements that rely on width and height dimensions	1.25rem20px	2.10.0	No
+$mq-large	Large form factor:  devices larger than tablet	only screen and (min-width: 64.0625em)	1.0.0	No
+$mq-medium	Medium form factor:  devices larger than phone	only screen and (min-width: 48em)	1.0.0	No
+$mq-medium-landscape	Medium form factor, landscape:  devices larger than phone, in landscape orientation	only screen and (min-width: 48em) and (min-aspect-ratio: 4/3)	1.0.0	No
+$mq-small	Small form factor: devices smaller than tablet	only screen and (max-width: 47.9375em)	1.0.0	No
+$z-index-deepdive	Deep dive	-99999	1.0.0	No
+$z-index-default	Default	1	1.0.0	No
+$z-index-dialog	Dialog	6000	1.0.0	No
+$z-index-docked	Docked element	4	1.0.0	No
+$z-index-dropdown	Dropdown	7000	1.0.0	No
+$z-index-modal	Modal	9000	1.0.0	No
+$z-index-overlay	Overlay	8000	1.0.0	No
+$z-index-popup	Popup	5000	1.0.0	No
+$z-index-reminder	Notifications under modals	8500	1.0.0	No
+$z-index-spinner	Spinner	9050	1.0.0	No
+$z-index-sticky	Stickied element	100	1.0.0	No
+$z-index-toast	Toasts	10000	1.0.0	No

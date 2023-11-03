@@ -1,0 +1,159 @@
+token name	description	value	version	themable
+
+$card-font-weight	Use for active tab.	700FONT_WEIGHT_BOLD	1.0.0	No
+
+$font-family	Default font-family for Salesforce applications	-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'SANS_SERIF	1.0.0	No
+$font-family-heading		-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'SANS_SERIF	1.0.0	No
+$font-family-monospace		Consolas, Menlo, Monaco, Courier, monospaceMONOSPACE	1.0.0	No
+$font-weight-bold	Used sparingly for emphasized text within regular body copy.	700FONT_WEIGHT_BOLD	1.0.0	No
+$font-weight-regular	Most all body copy.	400FONT_WEIGHT_REGULAR	1.0.0	No
+
+$form-label-font-size		0.75remFONT_SIZE_212px	1.0.0	No
+$input-static-font-size		0.875remFONT_SIZE_414px	1.0.0	No
+
+$input-static-font-weight		400FONT_WEIGHT_REGULAR	1.0.0	No
+$page-header-title-font-weight		700FONT_WEIGHT_BOLD	1.0.0	No
+$tabs-font-weight	Use for active tab.	700FONT_WEIGHT_BOLD	1.0.0	No
+
+$font-size-1	Constant typography token for font size 1	0.625remFONT_SIZE_110px	1.0.0	No
+$font-size-2	Constant typography token for font size 2	0.75remFONT_SIZE_212px	1.0.0	No
+$font-size-3	Constant typography token for font size 3	0.8125remFONT_SIZE_313px	1.0.0	No
+$font-size-4	Constant typography token for font size 4	0.875remFONT_SIZE_414px	1.0.0	No
+$font-size-5	Constant typography token for font size 5	1remFONT_SIZE_516px	1.0.0	No
+$font-size-6	Constant typography token for font size 6	1.125remFONT_SIZE_618px	1.0.0	No
+$font-size-7	Constant typography token for font size 7	1.25remFONT_SIZE_720px	1.0.0	No
+$font-size-8	Constant typography token for font size 8	1.5remFONT_SIZE_824px	1.0.0	No
+$font-size-9	Constant typography token for font size 9	1.75remFONT_SIZE_928px	1.0.0	No
+$font-size-10	Constant typography token for font size 10	2remFONT_SIZE_1032px	1.0.0	No
+$font-size-11	Constant typography token for font size 11	2.625remFONT_SIZE_1142px	1.0.0	No
+
+$var-font-size-1	Variable typography token for font size 1	0.625remFONT_SIZE_110px	1.0.0	No
+$var-font-size-2	Variable typography token for font size 2	0.75remFONT_SIZE_212px	1.0.0	No
+$var-font-size-3	Variable typography token for font size 3	0.8125remFONT_SIZE_313px	1.0.0	No
+$var-font-size-4	Variable typography token for font size 4	0.875remFONT_SIZE_414px	1.0.0	No
+$var-font-size-5	Variable typography token for font size 5	1remFONT_SIZE_516px	1.0.0	No
+$var-font-size-6	Variable typography token for font size 6	1.125remFONT_SIZE_618px	1.0.0	No
+$var-font-size-7	Variable typography token for font size 7	1.25remFONT_SIZE_720px	1.0.0	No
+$var-font-size-8	Variable typography token for font size 8	1.5remFONT_SIZE_824px	1.0.0	No
+$var-font-size-9	Variable typography token for font size 9	1.75remFONT_SIZE_928px	1.0.0	No
+$var-font-size-10	Variable typography token for font size 10	2remFONT_SIZE_1032px	1.0.0	No
+$var-font-size-11	Variable typography token for font size 11	2.625remFONT_SIZE_1142px	1.0.0	No
+
+$opacity-5	50% transparency of an element	0.5	1.0.0	No
+$opacity-8	80% transparency of an element	0.8	1.0.0	No
+
+$line-height-heading	Unitless line-heights for reusability	1.25	1.0.0	No
+$line-height-reset	Remove extra leading. Unitless line-heights for reusability	1	1.0.0	No
+$line-height-text	Unitless line-heights for reusability	1.5	1.0.0	No
+
+$var-line-height-text	Variable unitless line-heights for reusability	1.5	1.0.0	No
+
+$spacing-large	Constant spacing token for size Large	1.5remSPACING_LARGE24px	1.0.0	No
+$spacing-medium	Constant spacing token for size Medium	1remSPACING_MEDIUM16px	1.0.0	No
+$spacing-none	Constant spacing token for 0	0SPACING_NONE	1.0.0	No
+$spacing-small	Constant spacing token for size Small	0.75remSPACING_SMALL12px	1.0.0	No
+$spacing-x-large	Constant spacing token for size X Large	2remSPACING_X_LARGE32px	1.0.0	No
+$spacing-x-small	Constant spacing token for size X small	0.5remSPACING_X_SMALL8px	1.0.0	No
+$spacing-xx-large	Constant spacing token for size XX Large	3remSPACING_XX_LARGE48px	1.0.0	No
+$spacing-xx-small	Constant spacing token for size XX small	0.25remSPACING_XX_SMALL4px	1.0.0	No
+$spacing-xxx-small	Constant spacing token for size XXX small	0.125remSPACING_XXX_SMALL2px	1.0.0	No
+$table-cell-spacing		0.25rem 0.5remSPACING_XX_SMALL SPACING_X_SMALL4px 8px	1.0.0	No
+
+$template-gutters		0.75remSPACING_SMALL12px	1.0.0	No
+$template-profile-gutters		8rem 0.75rem 0.75rem8rem SPACING_SMALL SPACING_SMALL128px 12px 12px	1.0.0	No
+
+$var-spacing-horizontal-large	Variable horizontal spacing token for size Large	1.5remSPACING_LARGE24px	2.7.0	No
+$var-spacing-horizontal-medium	Variable horizontal spacing token for size Medium	1remSPACING_MEDIUM16px	2.7.0	No
+$var-spacing-horizontal-small	Variable horizontal spacing token for size Small	0.75remSPACING_SMALL12px	2.7.0	No
+$var-spacing-horizontal-x-large	Variable horizontal spacing token for size X Large	2remSPACING_X_LARGE32px	2.7.0	No
+$var-spacing-horizontal-x-small	Variable horizontal spacing token for size X Small	0.5remSPACING_X_SMALL8px	2.7.0	No
+$var-spacing-horizontal-xx-large	Variable horizontal spacing token for size XX Large	3remSPACING_XX_LARGE48px	2.7.0	No
+$var-spacing-horizontal-xx-small	Variable horizontal spacing token for size XX Small	0.25remSPACING_XX_SMALL4px	2.7.0	No
+$var-spacing-horizontal-xxx-small	Variable horizontal spacing token for size XXX Small	0.125remSPACING_XXX_SMALL2px	2.7.0	No
+
+$var-spacing-large	Variable spacing token for size Large	1.5remSPACING_LARGE24px	2.7.0	No
+$var-spacing-medium	Variable spacing token for size Medium	1remSPACING_MEDIUM16px	2.7.0	No
+$var-spacing-small	Variable spacing token for size Small	0.75remSPACING_SMALL12px	2.7.0	No
+
+$var-spacing-vertical-large	Variable vertical spacing token for size Large	1.5remSPACING_LARGE24px	2.7.0	No
+$var-spacing-vertical-medium	Variable vertical spacing token for size Medium	1remSPACING_MEDIUM16px	2.7.0	No
+$var-spacing-vertical-small	Variable vertical spacing token for size Small	0.75remSPACING_SMALL12px	2.7.0	No
+$var-spacing-vertical-x-large	Variable vertical spacing token for size X Large	2remSPACING_X_LARGE32px	2.7.0	No
+$var-spacing-vertical-x-small	Variable vertical spacing token for size X Small	0.5remSPACING_X_SMALL8px	2.7.0	No
+$var-spacing-vertical-xx-large	Variable vertical spacing token for size XX Large	3remSPACING_XX_LARGE48px	2.7.0	No
+$var-spacing-vertical-xx-small	Variable vertical spacing token for size XX Small	0.25remSPACING_XX_SMALL4px	2.7.0	No
+$var-spacing-vertical-xxx-small	Variable vertical spacing token for size XXX Small	0.125remSPACING_XXX_SMALL2px	2.7.0	No
+
+$var-spacing-x-large	Variable spacing token for size X Large	2remSPACING_X_LARGE32px	2.7.0	No
+$var-spacing-x-small	Variable spacing token for size X Small	0.5remSPACING_X_SMALL8px	2.7.0	No
+$var-spacing-xx-large	Variable spacing token for size XX Large	3remSPACING_XX_LARGE48px	2.7.0	No
+$var-spacing-xx-small	Variable spacing token for size XX Small	0.25remSPACING_XX_SMALL4px	2.7.0	No
+$var-spacing-xxx-small	Variable spacing token for size XXX Small	0.125remSPACING_XXX_SMALL2px	2.7.0	No
+
+$height-header	Header for desktop.	3.125rem50px	1.0.0	No
+
+$size-large	Generic sizing token scale for UI components.	25remSIZE_LARGE400px	1.0.0	No
+$size-medium	Generic sizing token scale for UI components.	20remSIZE_MEDIUM320px	1.0.0	No
+$size-small	Generic sizing token scale for UI components.	15remSIZE_SMALL240px	1.0.0	No
+$size-x-large	Generic sizing token scale for UI components.	40remSIZE_X_LARGE640px	1.0.0	No
+$size-x-small	Generic sizing token scale for UI components.	12remSIZE_X_SMALL192px	1.0.0	No
+$size-xx-large	Generic sizing token scale for UI components.	60remSIZE_XX_LARGE960px	1.0.0	No
+$size-xx-small	Generic sizing token scale for UI components.	6remSIZE_XX_SMALL96px	1.0.0	No
+$size-xxx-small	Generic sizing token scale for UI components.	3remSIZE_XXX_SMALL48px	1.0.0	No
+
+$square-icon-large-boundary	Anchor: Outer colored tile	3rem48px	1.0.0	No
+$square-icon-large-boundary-alt	Anchor: avatar	5rem80px	1.0.0	No
+$square-icon-large-content	Anchor: Icon content (white shape)	2remSIZE_SQUARE_XX_LARGE32px	1.0.0	No
+$square-icon-medium	Medium tap target size	2rem32px	1.0.0	No
+$square-icon-medium-boundary	Stage left & actions: Outer colored tile	2remSIZE_SQUARE_XX_LARGE32px	1.0.0	No
+$square-icon-medium-boundary-alt	Icon button boundary.	2.25remSIZE_SQUARE_XXX_LARGE36px	1.0.0	No
+$square-icon-medium-content	Stage left & actions: Icon content (white shape)	1remSIZE_SQUARE_MEDIUM16px	1.0.0	No
+$square-icon-medium-content-alt	Alternate medium tap target size	0.875remSIZE_SQUARE_SMALL14px	1.0.0	No
+$square-icon-small-boundary	Search Results: Outer colored tile	1.5remSIZE_SQUARE_X_LARGE24px	1.0.0	No
+$square-icon-small-content	Search Results: Icon content (white shape)	0.75remSIZE_SQUARE_XX_SMALL12px	1.0.0	No
+$square-icon-utility-large	Large utility icon without border.	1.5remSIZE_SQUARE_X_LARGE24px	1.0.0	No
+$square-icon-utility-medium	Medium utility icon without border.	1.25remSIZE_SQUARE_LARGE20px	1.0.0	No
+$square-icon-utility-small	Small utility icon without border.	1remSIZE_SQUARE_MEDIUM16px	1.0.0	No
+$square-icon-x-small-boundary	Very small icon button boundary.	1.25remSIZE_SQUARE_LARGE20px	1.0.0	No
+$square-icon-x-small-content	Very small icons in icon buttons.	0.5remSIZE_SQUARE_XXX_SMALL8px	1.0.0	No
+$square-icon-xx-small-boundary	Very very small icon button boundary.	1remSIZE_SQUARE_MEDIUM16px	1.0.0	No
+$var-square-icon-medium-boundary	Variable medium boundary for square icons	2remSIZE_SQUARE_XX_LARGE32px	1.0.0	No
+
+$card-shadow	Hard dropshadow found on outer cards	0 2px 2px 0 rgba(0, 0, 0, 0.10)0 2px 2px 0 BLACK_TRANSPARENT_10	1.0.0	No
+$page-header-shadow	Hard dropshadow on page header	0 2px 2px 0 rgba(0, 0, 0, 0.10)0 2px 2px 0 BLACK_TRANSPARENT_10	1.0.0	No
+$shadow-active	Shadow for active states on interactive elements.	0 0 2px #0176d3OFFSET_NONE OFFSET_NONE OFFSET_X_SMALLpx BRAND_ACCESSIBLE	1.0.0	No
+$shadow-drag	Shadow for drag-n-drop.	0 2px 4px 0 rgba(0, 0, 0, 0.40)OFFSET_NONE OFFSET_X_SMALLpx OFFSET_MEDIUMpx OFFSET_NONE BLACK_TRANSPARENT_40	1.0.0	No
+$shadow-drop-down	Shadow for drop down.	0 2px 3px 0 rgba(0, 0, 0, 0.16)OFFSET_NONE OFFSET_X_SMALLpx OFFSET_SMALLpx OFFSET_NONE BLACK_TRANSPARENT_16	1.0.0	No
+
+$duration-immediately	0.05 seconds, 3 frames	0.05sDURATION_IMMEDIATELY	1.0.0	No
+$duration-instantly	0 seconds, 0 frames	0sDURATION_INSTANTLY	1.0.0	No
+$duration-paused	3.2 seconds, 192 frames	3.2sDURATION_PAUSED	1.0.0	No
+$duration-promptly	0.2 seconds, 12 frames	0.2sDURATION_PROMPTLY	1.0.0	No
+$duration-quickly	0.1 seconds, 6 frames	0.1sDURATION_QUICKLY	1.0.0	No
+$duration-slowly	0.4 seconds, 24 frames	0.4sDURATION_SLOWLY	1.0.0	No
+
+$height-tappable	Tap target size for elements that rely on height or line-height	2.75rem44px	2.10.0	No
+$height-tappable-small	Small tap target size for elements that rely on height or line-height	2rem32px	2.10.0	No
+$square-tappable	Tap target size for elements that rely on width and height dimensions	2.75rem44px	1.0.0	No
+$square-tappable-small	Small tap target size for elements that rely on width and height dimensions	2rem32px	2.10.0	No
+$square-tappable-x-small	X-small tap target size for elements that rely on width and height dimensions	1.5rem24px	2.10.0	No
+$square-tappable-xx-small	Xx-small tap target size for elements that rely on width and height dimensions	1.25rem20px	2.10.0	No
+
+$mq-large	Large form factor:  devices larger than tablet	only screen and (min-width: 64.0625em)	1.0.0	No
+$mq-medium	Medium form factor:  devices larger than phone	only screen and (min-width: 48em)	1.0.0	No
+$mq-medium-landscape	Medium form factor, landscape:  devices larger than phone, in landscape orientation	only screen and (min-width: 48em) and (min-aspect-ratio: 4/3)	1.0.0	No
+$mq-small	Small form factor: devices smaller than tablet	only screen and (max-width: 47.9375em)	1.0.0	No
+
+$z-index-deepdive	Deep dive	-99999	1.0.0	No
+$z-index-default	Default	1	1.0.0	No
+$z-index-dialog	Dialog	6000	1.0.0	No
+$z-index-docked	Docked element	4	1.0.0	No
+$z-index-dropdown	Dropdown	7000	1.0.0	No
+$z-index-modal	Modal	9000	1.0.0	No
+$z-index-overlay	Overlay	8000	1.0.0	No
+$z-index-popup	Popup	5000	1.0.0	No
+$z-index-reminder	Notifications under modals	8500	1.0.0	No
+$z-index-spinner	Spinner	9050	1.0.0	No
+$z-index-sticky	Stickied element	100	1.0.0	No
+$z-index-toast	Toasts	10000	1.0.0	No
+
