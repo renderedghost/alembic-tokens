@@ -79,10 +79,10 @@
 }
 
 :root {
-    --color-transparent-trans-01: #ffffff02;
-    --color-transparent-trans-10: #19191919;
-    --color-transparent-trans-20: #00000033;
-    --color-transparent-trans-40: #00000066;
-    --color-transparent-trans-60: #00000099;
-    --color-transparent-trans-80: #000000cc;
+    --color-transparent-trans-01: hsla(0, 0%, 100%, 0.00784313725490196);
+    --color-transparent-trans-10: hsla(0, 0%, 10%, 0.09803921568627451);
+    --color-transparent-trans-20: hsla(0, 0%, 0%, 0.2);
+    --color-transparent-trans-40: hsla(0, 0%, 0%, 0.4);
+    --color-transparent-trans-60: hsla(0, 0%, 0%, 0.6);
+    --color-transparent-trans-80: hsla(0, 0%, 0%, 0.8);
 }

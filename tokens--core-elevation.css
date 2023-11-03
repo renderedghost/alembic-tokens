@@ -1,12 +1,12 @@
 :root {
-	--elevation-deepdive: -9999;
-	--elevation-default: 1;
-	--elevation-docked: 4;
-	--elevation-popup: 5000;
-	--elevation-dialog: 6000;
-	--elevation-menu: 7000;
-	--elevation-overlay: 8000;
-	--elevation-modal: 9000;
-	--elevation-spinner: 9050;
-	--elevation-toast: 10000;
+	--z-deepdive: -9999;
+	--z-default: 1;
+	--z-docked: 4;
+	--z-popup: 5000;
+	--z-dialog: 6000;
+	--z-menu: 7000;
+	--z-overlay: 8000;
+	--z-modal: 9000;
+	--z-spinner: 9050;
+	--z-toast: 10000;
 }

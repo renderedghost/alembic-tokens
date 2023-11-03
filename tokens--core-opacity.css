@@ -1,10 +1,12 @@
 :root {
-    --opacity-0: 0%;
-    --opacity-5: 5%;
-    --opacity-10: 10%;
-    --opacity-20: 20%;
-    --opacity-40: 40%;
-    --opacity-60: 60%;
-    --opacity-80: 80%;
-    --opacity-100: 100%;
+    --opacity-0: 0;
+    --opacity-01: 0.01;
+    --opacity-05: 0.05;
+    --opacity-15: 0.15;
+    --opacity-10: 0.1;
+    --opacity-20: 0.2;
+    --opacity-40: 0.4;
+    --opacity-60: 0.6;
+    --opacity-80: 0.8;
+    --opacity-100: 1;
 }

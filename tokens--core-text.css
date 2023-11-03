@@ -1,7 +1,7 @@
 :root {
     /* family */
-    --font-family-sans: inter;
-    --font-family-serif: orleans-alt;
+    --font-family-sans: Inter;
+    --font-family-serif: 'Orleans Alt';
     --font-family-icon: 'Font Awesome 6 Pro';
     --font-family-icon-brand: 'Font Awesome 6 Brands';
 
@@ -12,15 +12,19 @@
     --font-icon-brand: var(--font-family-icon-brand);
 
     /* weight */
+    --font-weight-thin: 100;
+    --font-weight-light: 300;
     --font-weight-regular: 400;
+    --font-weight-medium: 500;
     --font-weight-semi: 600;
     --font-weight-bold: 700;
-    --font-weight-black: 800;
+    --font-weight-extra: 800;
+    --font-weight-black: 900;
 
     /* sizes */
     --font-size-xs: 0.75rem;
     --font-size-s: 0.875rem;
-    --font-size-normal: 1rem;
+    --font-size-base: 1rem;
     --font-size-m: 1.25rem;
     --font-size-l: 1.5rem;
     --font-size-xl: 2rem;
@@ -29,9 +33,9 @@
     --font-size-xxxxl: 4rem;
 
     /* line heights */
-    --line-height-s: 1.375rem;
     --line-height-xs: 1rem;
-    --line-height-normal: 1.5rem;
+    --line-height-s: 1.375rem;
+    --line-height-base: 1.5rem;
     --line-height-m: 1.75rem;
     --line-height-l: 2rem;
     --line-height-xl: 2.5rem;
@@ -39,6 +43,12 @@
     --line-height-xxxl: 3.5rem;
     --line-height-xxxxl: 4.5rem;
 
+    /* letter spacing */
+    --letter-spacing-default: 0;
+    --letter-spacing-s: 0.01em;
+    --letter-spacing-m: 0.02em;
+    --letter-spacing-l: 0.04em;
+
     /* paragraph spacing */
-    --paragraph-spacing-normal: 1rem;
+    --paragraph-spacing-base: 1rem;
 }
