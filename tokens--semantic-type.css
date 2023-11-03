@@ -1,0 +1,84 @@
+/* Heading Text */
+
+.text-title-page {
+    font-size: var(--font-size-xl);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xl);
+}
+
+.text-title-section {
+    font-size: var(--font-size-l);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-l);
+}
+
+.text-title-overline {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-normal);
+}
+
+/* Body Text */
+
+.text-body-large {
+    font-size: var(--font-size-l);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-l);
+}
+
+.text-body {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-normal);
+}
+
+.text-body-small {
+    font-size: var(--font-size-s);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-s);
+}
+
+.text-input-label {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-normal);
+}
+
+/* Inputs  */
+
+.text-input-value-normal {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-normal);
+}
+
+.text-input-value-small {
+    font-size: var(--font-size-s);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-s);
+}
+
+.text-input-helper {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-normal);
+}
+
+/* Buttons */
+
+.button-label {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-semi);
+    line-height: var(--line-height-normal);
+}

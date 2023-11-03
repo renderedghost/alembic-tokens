@@ -1,0 +1,136 @@
+/* hues - used to maintain consistency in the colours below */
+:root {
+    --hue-mono: 0;
+    --hue-red: 5;
+    --hue-yellow: 39;
+    --hue-green: 112;
+    --hue-blue: 229;
+}
+
+/* main set - reserved for morressier interface */
+
+:root {
+    /* mono */
+    --color-mono-0: hsl(var(--hue-mono), 0%, 0%);
+    --color-mono-10: hsl(var(--hue-mono), 0%, 10%);
+    --color-mono-20: hsl(var(--hue-mono), 0%, 15%);
+    --color-mono-30: hsl(var(--hue-mono), 0%, 22%);
+    --color-mono-40: hsl(var(--hue-mono), 0%, 30%);
+    --color-mono-50: hsl(var(--hue-mono), 0%, 38%);
+    --color-mono-60: hsl(var(--hue-mono), 0%, 47%);
+    --color-mono-70: hsl(var(--hue-mono), 0%, 56%);
+    --color-mono-80: hsl(var(--hue-mono), 0%, 66%);
+    --color-mono-90: hsl(var(--hue-mono), 0%, 77%);
+    --color-mono-95: hsl(var(--hue-mono), 0%, 88%);
+    --color-mono-99: hsl(var(--hue-mono), 0%, 97%);
+    --color-mono-100: hsl(var(--hue-mono), 0%, 100%);
+
+    /* blue */
+    --color-blue-05: hsl(var(--hue-blue), 68%, 10%);
+    --color-blue-10: hsl(var(--hue-blue), 68%, 20%);
+    --color-blue-20: hsl(var(--hue-blue), 71%, 25%);
+    --color-blue-30: hsl(var(--hue-blue), 72%, 34%);
+    --color-blue-40: hsl(var(--hue-blue), 73%, 43%);
+    --color-blue-50: hsl(var(--hue-blue), 75%, 50%);
+    --color-blue-60: hsl(var(--hue-blue), 76%, 60%);
+    --color-blue-70: hsl(var(--hue-blue), 78%, 69%);
+    --color-blue-80: hsl(var(--hue-blue), 79%, 77%);
+    --color-blue-90: hsl(var(--hue-blue), 83%, 86%);
+    --color-blue-95: hsl(var(--hue-blue), 83%, 91%);
+    --color-blue-99: hsl(var(--hue-blue), 85%, 95%);
+
+    /* green */
+    --color-green-05: hsl(var(--hue-green), 67%, 6%);
+    --color-green-10: hsl(var(--hue-green), 69%, 10%);
+    --color-green-20: hsl(var(--hue-green), 66%, 20%);
+    --color-green-30: hsl(var(--hue-green), 63%, 28%);
+    --color-green-40: hsl(var(--hue-green), 61%, 35%);
+    --color-green-50: hsl(var(--hue-green), 58%, 43%);
+    --color-green-60: hsl(var(--hue-green), 60%, 54%);
+    --color-green-70: hsl(var(--hue-green), 67%, 64%);
+    --color-green-80: hsl(var(--hue-green), 74%, 74%);
+    --color-green-90: hsl(var(--hue-green), 80%, 84%);
+    --color-green-95: hsl(var(--hue-green), 81%, 90%);
+    --color-green-99: hsl(var(--hue-green), 78%, 95%);
+
+    /* red */
+    --color-red-05: hsl(var(--hue-red), 64%, 10%);
+    --color-red-10: hsl(var(--hue-red), 65%, 20%);
+    --color-red-20: hsl(var(--hue-red), 68%, 27%);
+    --color-red-30: hsl(var(--hue-red), 68%, 36%);
+    --color-red-40: hsl(var(--hue-red), 69%, 44%);
+    --color-red-50: hsl(var(--hue-red), 70%, 50%);
+    --color-red-60: hsl(var(--hue-red), 73%, 59%);
+    --color-red-70: hsl(var(--hue-red), 77%, 68%);
+    --color-red-80: hsl(var(--hue-red), 79%, 77%);
+    --color-red-90: hsl(var(--hue-red), 83%, 86%);
+    --color-red-95: hsl(var(--hue-red), 84%, 90%);
+    --color-red-99: hsl(var(--hue-red), 85%, 95%);
+
+    /* yellow */
+    --color-yellow-05: hsl(var(--hue-yellow), 72%, 10%);
+    --color-yellow-10: hsl(var(--hue-yellow), 71%, 17%);
+    --color-yellow-20: hsl(var(--hue-yellow), 70%, 28%);
+    --color-yellow-30: hsl(var(--hue-yellow), 71%, 38%);
+    --color-yellow-40: hsl(var(--hue-yellow), 71%, 48%);
+    --color-yellow-50: hsl(var(--hue-yellow), 87%, 50%);
+    --color-yellow-60: hsl(var(--hue-yellow), 85%, 57%);
+    --color-yellow-70: hsl(var(--hue-yellow), 85%, 65%);
+    --color-yellow-80: hsl(var(--hue-yellow), 83%, 72%);
+    --color-yellow-90: hsl(var(--hue-yellow), 83%, 79%);
+    --color-yellow-95: hsl(var(--hue-yellow), 83%, 86%);
+    --color-yellow-99: hsl(var(--hue-yellow), 77%, 93%);
+}
+
+/* support set  - only for use in charts, brand graphics and illustrations */
+
+:root {
+    /* teal */
+    --color-teal-5: hsl(180, 28%, 14%);
+    --color-teal-10: hsl(180, 28%, 18%);
+    --color-teal-20: hsl(177, 24%, 29%);
+    --color-teal-30: hsl(177, 42%, 35%);
+    --color-teal-40: hsl(169, 48%, 43%);
+    --color-teal-50: hsl(164, 54%, 52%);
+    --color-teal-60: hsl(160, 61%, 60%);
+    --color-teal-70: hsl(156, 68%, 69%);
+    --color-teal-80: hsl(147, 95%, 83%);
+    --color-teal-90: hsl(146, 93%, 89%);
+    --color-teal-95: hsl(144, 87%, 94%);
+
+    /* purple */
+    --color-purple-10: hsl(269, 67%, 12%);
+    --color-purple-20: hsl(271, 66%, 21%);
+    --color-purple-30: hsl(273, 67%, 30%);
+    --color-purple-40: hsl(275, 69%, 39%);
+    --color-purple-50: hsl(277, 70%, 47%);
+    --color-purple-60: hsl(278, 72%, 62%);
+    --color-purple-70: hsl(280, 73%, 65%);
+    --color-purple-80: hsl(282, 75%, 73%);
+    --color-purple-90: hsl(283, 76%, 82%);
+    --color-purple-95: hsl(285, 77%, 95%);
+
+    /* pink */
+    --color-pink-10: hsl(316, 67%, 12%);
+    --color-pink-20: hsl(316, 66%, 22%);
+    --color-pink-30: hsl(318, 69%, 31%);
+    --color-pink-40: hsl(320, 70%, 41%);
+    --color-pink-50: hsl(322, 72%, 50%);
+    --color-pink-60: hsl(323, 75%, 60%);
+    --color-pink-70: hsl(325, 76%, 68%);
+    --color-pink-80: hsl(327, 76%, 75%);
+    --color-pink-90: hsl(328, 77%, 83%);
+    --color-pink-95: hsl(330, 78%, 91%);
+
+    /* orange */
+    --color-orange-10: hsl(21, 71%, 17%);
+    --color-orange-20: hsl(23, 73%, 26%);
+    --color-orange-30: hsl(24, 75%, 35%);
+    --color-orange-40: hsl(25, 77%, 43%);
+    --color-orange-50: hsl(26, 79%, 51%);
+    --color-orange-60: hsl(27, 81%, 60%);
+    --color-orange-70: hsl(28, 83%, 68%);
+    --color-orange-80: hsl(30, 85%, 77%);
+    --color-orange-90: hsl(30, 87%, 85%);
+    --color-orange-95: hsl(32, 88%, 93%);
+}

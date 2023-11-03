@@ -1,0 +1,25 @@
+root {
+    /* padding */
+    --padding-none: var(--size-0);
+    --padding-smallest: var(--size-xxs);
+    --padding-smaller: var(--size-xs);
+    --padding-small: var(--size-s);
+    --padding-base: var(--size-base);
+    --padding-large: var(--size-l);
+    --padding-largest: var(--size-xl);
+
+    /* gap (for flex) */
+    --gap-none: var(--size-0);
+    --gap-smallest: var(--size-xxs);
+    --gap-smaller: var(--size-xs);
+    --gap-small: var(--size-s);
+    --gap-base: var(--size-base);
+    --gap-large: var(--size-l);
+    --gap-largest: var(--size-xl);
+
+    /* corners (for shapes) */
+    --corner-hard: var(--size-0);
+    --corner-soft: var(--size-xs);
+    --corner-rounded: var(--size-s);
+    --corner-circular: 1000;
+}

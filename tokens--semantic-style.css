@@ -1,0 +1,88 @@
+:root {
+
+    /* surfaces -- e.g. card, table, and page backgrounds */
+    --surface-primary: var(--color-mono-100);
+    --surface-secondary: var(--color-mono-99);
+    --surface-brand: var(--color-teal-10);
+    --surface-accent: var(--color-teal-80);
+
+    /* content -- e.g. text, icons, etc. */
+    --content-primary: var(--color-mono-0);
+    --content-secondary: var(--color-mono-60);
+    --content-read-only: var(--color-mono-60);
+    --content-caution: var(--color-red-50);
+    --content-success: var(--color-green-30);
+    --content-link: var(--color-blue-40);
+    --content-link-hover: var(--color-blue-20);
+
+    /* shapes -- e.g. buttons, information banners, etc. */
+
+    /* ### neutral */
+    --neutral-fill: var(--color-mono-100);
+    --neutral-fill-disabled: var(--color-mono-95);
+    --neutral-border: var(--color-mono-60);
+    --neutral-border-hover: var(--color-mono-0);
+    --neutral-on-default: var(--color-mono-0);
+    --neutral-on-default-disabled: var(--color-mono-60);
+
+    /* ### primary */
+    --primary-fill: var(--color-blue-40);
+    --primary-fill-hover: var(--color-blue-20);
+    --primary-fill-disabled: var(--color-mono-60);
+    --primary-on-primary: var(--color-mono-100);
+
+    /* ### brand */
+    --brand-fill: var(--color-teal-10);
+    --brand-fill-accent: var(--color-teal-80);
+    --brand-fill-disabled: var(--color-mono-60);
+    --brand-on-brand: var(--color-mono-100);
+
+    /* ### success */
+    --success-fill: var(--color-green-40);
+    --success-fill-hover: var(--color-green-20);
+    --success-fill-disabled: var(--color-mono-60);
+    --success-on-success: var(--color-mono-100);
+    /* for content on success shapes */
+
+    /* ### caution */
+    --caution-fill: var(--color-red-50);
+    --caution-fill-hover: var(--color-red-30);
+    --caution-fill-disabled: var(--color-mono-60);
+    --caution-on-caution: var(--color-mono-100);
+
+    /* ### caution */
+    --highlight-fill: var(--color-yellow-60);
+    --highlight-fill-hover: var(--color-yellow-30);
+    --highlight-on-highlight: var(--color-mono-0);
+
+    --input-on-input-primary: var(--color-mono-0);
+    --input-on-input-secondary: var(--color-mono-60);
+
+    --input-action: var(--color-mono-60);
+    --input-action-hover: var(--color-mono-0);
+    --input-action-selected: var(--color-mono-0);
+
+    --input-fill: var(--color-mono-100);
+    --input-fill-secondary: var(--color-mono-95);
+    --input-fill-selected: var(--color-mono-95);
+    --input-fill-disabled: var(--color-mono-95);
+    --input-fill-active: var(--color-green-40);
+
+    --input-border: var(--color-mono-60);
+    --input-border-hover: var(--color-mono-0);
+    --input-border-selected: var(--color-mono-0);
+    --input-border-error: var(--color-red-50);
+
+    --utility-focus: var(--color-yellow-60);
+    --utility-select-content: var(--color-mono-0);
+    --utility-select-bg: var(--color-yellow-60);
+}
+
+:root {
+    --color-transparent-trans-01: #ffffff02;
+    --color-transparent-trans-10: #19191919;
+    --color-transparent-trans-20: #00000033;
+    --color-transparent-trans-40: #00000066;
+    --color-transparent-trans-60: #00000099;
+    --color-transparent-trans-80: #000000cc;
+}

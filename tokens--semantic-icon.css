@@ -1,0 +1,27 @@
+.icon-small {
+	font-size: var(--font-size-xs);
+	font-family: var(--font-family-icon);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-xs);
+}
+
+.icon-normal {
+	font-size: var(--font-size-normal);
+	font-family: var(--font-family-icon);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-normal);
+}
+
+.icon-medium {
+	font-size: var(--font-size-m);
+	font-family: var(--font-family-icon);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-normal);
+}
+
+.icon-large {
+	font-size: var(--font-size-l);
+	font-family: var(--font-family-icon);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-l);
+}
