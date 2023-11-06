@@ -1,12 +1,11 @@
 :root {
 	--z-deepdive: -9999;
 	--z-default: 1;
-	--z-docked: 4;
+	--z-docked: 1000;
 	--z-popup: 5000;
 	--z-dialog: 6000;
 	--z-menu: 7000;
 	--z-overlay: 8000;
 	--z-modal: 9000;
-	--z-spinner: 9050;
 	--z-toast: 10000;
 }
