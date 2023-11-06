@@ -42,7 +42,6 @@
     --success-fill-hover: var(--color-green-20);
     --success-fill-disabled: var(--color-mono-60);
     --success-on-success: var(--color-mono-100);
-    /* for content on success shapes */
 
     /* ### caution */
     --caution-fill: var(--color-red-50);
@@ -78,11 +77,11 @@
     --utility-select-bg: var(--color-yellow-60);
 }
 
-:root {
-    --color-transparent-trans-01: hsla(0, 0%, 100%, 0.00784313725490196);
-    --color-transparent-trans-10: hsla(0, 0%, 10%, 0.09803921568627451);
-    --color-transparent-trans-20: hsla(0, 0%, 0%, 0.2);
-    --color-transparent-trans-40: hsla(0, 0%, 0%, 0.4);
-    --color-transparent-trans-60: hsla(0, 0%, 0%, 0.6);
-    --color-transparent-trans-80: hsla(0, 0%, 0%, 0.8);
-}
+/* :root {
+    --color-transparent-trans-01: hsla(--hue-mono, 0%, 0%, var(--color-transparent-trans-01));
+    --color-transparent-trans-10: hsla(--hue-mono, 0%, 0%, var(--color-transparent-trans-10));
+    --color-transparent-trans-20: hsla(--hue-mono, 0%, 0%, var(--color-transparent-trans-20));
+    --color-transparent-trans-40: hsla(--hue-mono, 0%, 0%, var(--color-transparent-trans-40));
+    --color-transparent-trans-60: hsla(--hue-mono, 0%, 0%, var(--color-transparent-trans-60));
+    --color-transparent-trans-80: hsla(--hue-mono, 0%, 0%, var(--color-transparent-trans-80));
+} */

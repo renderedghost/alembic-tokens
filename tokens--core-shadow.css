@@ -1,36 +1,48 @@
-.shadow-inner {
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, var(--opacity-10));
+/* core values */
+
+:root {
+
+    /* opacity */
+    --shadow-opacity-none: var(--opacity-0);
+    --shadow-opacity-weak: var(--opacity-05);
+    --shadow-opacity-strong: shadow var(--opacity-10);
+
+    /* color */
+    --shadow-color: var(--shadow-color);
+
+    /* blur */
+    --shadow-blur-none: 0;
+    --shadow-blur-xs: 1px;
+    --shadow-blur-s: 2px;
+    --shadow-blur-m: 4px;
+    --shadow-blur-l: 8px;
+    --shadow-blur-xl: 16px;
+    --shadow-blur-xxl: 24px;
+    --shadow-blur-xxxl: 32px;
+
+    /* offset */
+    --shadow-offset-none: 0;
+    --shadow-offset-xs: 1px;
+    --shadow-offset-s: 2px;
+    --shadow-offset-m: 4px;
+    --shadow-offset-l: 8px;
+    --shadow-offset-xl: 16px;
+    --shadow-offset-xxl: 24px;
+    --shadow-offset-xxxl: 32px;
+
+    /* spread */
+    --shadow-spread-none: 0;
+    --shadow-spread-s: -2px;
+    --shadow-spread-m: -4px;
+    --shadow-spread-l: -8px;
+    --shadow-spread-xl: -16px;
 }
 
-.shadow-base {
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, var(--opacity-10));
-}
+/* core shadows */
 
-.shadow-1 {
-    box-shadow:
-        0px 1px 2px rgba(0, 0, 0, var(--opacity-10)),
-        0px 1px 3px rgba(0, 0, 0, var(--opacity-10));
-}
-
-.shadow-2 {
-    box-shadow:
-        0px 2px 4px rgba(0, 0, 0, var(--opacity-10)),
-        0px 4px 6px rgba(0, 0, 0, var(--opacity-10));
-}
-
-.shadow-3 {
-    box-shadow:
-        0px 4px 6px rgba(0, 0, 0, var(--opacity-10)),
-        0px 8px 16px rgba(0, 0, 0, var(--opacity-10));
-}
-
-.shadow-4 {
-    box-shadow:
-        0px 8px 8px rgba(0, 0, 0, 0),
-        0px 20px 24px rgba(0, 0, 0, var(--opacity-10));
-}
-
-.shadow-5 {
-    box-shadow:
-        0px 24px 48px rgba(0, 0, 0, var(--opacity-40));
+:root {
+    --shadow-s: var(--shadow-offset-none) var(--shadow-offset-xs) var(--shadow-blur-s) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-s) var(--shadow-blur-m) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-m: var(--shadow-offset-none) var(--shadow-offset-s) var(--shadow-blur-m) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-m) var(--shadow-blur-l) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-l: var(--shadow-offset-none) var(--shadow-offset-m) var(--shadow-blur-l) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-l) var(--shadow-blur-xl) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-xl: var(--shadow-offset-none) var(--shadow-offset-l) var(--shadow-blur-xl) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-xl) var(--shadow-blur-xxl) hsl(--shadow-color / var(--shadow-opacity-strong));
 }

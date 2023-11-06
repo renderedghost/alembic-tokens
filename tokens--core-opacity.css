@@ -1,9 +1,11 @@
 :root {
     --opacity-0: 0;
-    --opacity-01: 0.01;
+    --opacity-02: 0.02;
+    --opacity-04: 0.04;
+    --opacity-04: 0.04;
     --opacity-05: 0.05;
-    --opacity-15: 0.15;
     --opacity-10: 0.1;
+    --opacity-15: 0.15;
     --opacity-20: 0.2;
     --opacity-40: 0.4;
     --opacity-60: 0.6;
