@@ -4,5 +4,7 @@
     --shadow-card-base: var(--shadow-s);
     --shadow-card-hover: var(--shadow-l);
     --shadow-card-active: var(--shadow-m);
-    --shadow-popover-base: var(--shadow-xl);
+    --shadow-panel-low: var(--shadow-m);
+    --shadow-panel-medium: var(--shadow-l);
+    --shadow-panel-high: var(--shadow-xl);
 }
