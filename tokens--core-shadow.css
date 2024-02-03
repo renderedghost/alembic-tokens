@@ -1,5 +1,3 @@
-/* core values */
-
 :root {
 
     /* opacity */
@@ -41,8 +39,16 @@
 /* core shadows */
 
 :root {
-    --shadow-s: var(--shadow-offset-none) var(--shadow-offset-xs) var(--shadow-blur-s) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-s) var(--shadow-blur-m) hsl(--shadow-color / var(--shadow-opacity-strong));
-    --shadow-m: var(--shadow-offset-none) var(--shadow-offset-s) var(--shadow-blur-m) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-m) var(--shadow-blur-l) hsl(--shadow-color / var(--shadow-opacity-strong));
-    --shadow-l: var(--shadow-offset-none) var(--shadow-offset-m) var(--shadow-blur-l) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-l) var(--shadow-blur-xl) hsl(--shadow-color / var(--shadow-opacity-strong));
-    --shadow-xl: var(--shadow-offset-none) var(--shadow-offset-l) var(--shadow-blur-xl) hsl(--shadow-color / var(--shadow-opacity-strong)), var(--shadow-offset-none) var(--shadow-offset-xl) var(--shadow-blur-xxl) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-s:
+        var(--shadow-offset-none) var(--shadow-offset-xs) var(--shadow-blur-s) hsl(--shadow-color / var(--shadow-opacity-strong)),
+        var(--shadow-offset-none) var(--shadow-offset-s) var(--shadow-blur-m) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-m:
+        var(--shadow-offset-none) var(--shadow-offset-s) var(--shadow-blur-m) hsl(--shadow-color / var(--shadow-opacity-strong)),
+        var(--shadow-offset-none) var(--shadow-offset-m) var(--shadow-blur-l) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-l:
+        var(--shadow-offset-none) var(--shadow-offset-m) var(--shadow-blur-l) hsl(--shadow-color / var(--shadow-opacity-strong)),
+        var(--shadow-offset-none) var(--shadow-offset-l) var(--shadow-blur-xl) hsl(--shadow-color / var(--shadow-opacity-strong));
+    --shadow-xl:
+        var(--shadow-offset-none) var(--shadow-offset-l) var(--shadow-blur-xl) hsl(--shadow-color / var(--shadow-opacity-strong)),
+        var(--shadow-offset-none) var(--shadow-offset-xl) var(--shadow-blur-xxl) hsl(--shadow-color / var(--shadow-opacity-strong));
 }

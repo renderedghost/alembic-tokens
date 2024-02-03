@@ -1,10 +1,8 @@
-/* semantic shadows */
-
 :root {
-    --shadow-card-base: var(--shadow-s);
-    --shadow-card-hover: var(--shadow-l);
-    --shadow-card-active: var(--shadow-m);
-    --shadow-panel-low: var(--shadow-m);
-    --shadow-panel-medium: var(--shadow-l);
-    --shadow-panel-high: var(--shadow-xl);
+    --shadow-action-base: var(--shadow-s);
+    --shadow-action-hover: var(--shadow-l);
+    --shadow-action-active: var(--shadow-m);
+    --shadow-surface-low: var(--shadow-m);
+    --shadow-surface-medium: var(--shadow-l);
+    --shadow-surface-high: var(--shadow-xl);
 }

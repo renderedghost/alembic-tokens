@@ -1,0 +1,20 @@
+:root {
+    --duration-instant: 0ms;
+    /* -- fast -- */
+    --duration-fast-1: 50ms;
+    --duration-fast-2: 100ms;
+    --duration-fast-3: 200ms;
+    --duration-fast-4: 400ms;
+    --duration-fast-5: 600ms;
+    --duration-fast-4: 800ms;
+    /* -- medium -- */
+    --duration-medium-1: 1000ms;
+    --duration-medium-2: 1200ms;
+    --duration-medium-3: 1600ms;
+    --duration-medium-4: 1800ms;
+    /* -- slow -- */
+    --duration-slow-1: 2000ms;
+    --duration-slow-2: 4000ms;
+    --duration-slow-3: 6000ms;
+    --duration-slow-4: 8000ms;
+}

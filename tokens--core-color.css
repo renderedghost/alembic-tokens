@@ -1,5 +1,5 @@
-/* hues - used to maintain consistency in the colours below */
 :root {
+    /* hues - used to maintain consistency in the colours below */
     --hue-mono: 0;
     --hue-red: 5;
     --hue-yellow: 39;
@@ -7,9 +7,8 @@
     --hue-blue: 229;
 }
 
-/* main set - reserved for morressier interface */
-
 :root {
+
     /* mono */
     --color-mono-0: hsl(var(--hue-mono), 0%, 0%);
     --color-mono-10: hsl(var(--hue-mono), 0%, 10%);
