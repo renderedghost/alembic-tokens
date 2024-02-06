@@ -1,0 +1,6 @@
+:root {
+    --corner-hard: var(--unit-0);
+    --corner-soft: var(--unit-xs);
+    --corner-rounded: var(--unit-s);
+    --corner-circular: 1000px;
+}

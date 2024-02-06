@@ -1,0 +1,9 @@
+:root {
+    --space-zero: var(--unit-zero);
+    --space-xxs: var(--unit-xxs);
+    --space-xs: var(--unit-xs);
+    --space-s: var(--unit-s);
+    --space-base: var(--unit-base);
+    --space-l: var(--unit-l);
+    --space-xl: var(--unit-xl);
+}

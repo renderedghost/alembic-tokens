@@ -1,0 +1,19 @@
+:root {
+    --unit-zero: 0px;
+    --unit-xxxs: 1px;
+    --unit-xxs: 2px;
+    --unit-xs: 4px;
+    --unit-s: 8px;
+    --unit-base: 16px;
+    --unit-m: 20px;
+    --unit-l: 24px;
+    --unit-xl: 32px;
+    --unit-xxl: 40px;
+    --unit-xxxl: 48px;
+    --unit-xxxxl: 56px;
+    --unit-xxxxxl: 64px;
+    --unit-xxxxxxl: 72px;
+    --unit-xxxxxxxl: 80px;
+    --unit-xxxxxxxxl: 88px;
+    --unit-xxxxxxxxxl: 96px;
+}
